@@ -78,6 +78,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                 | PARA ... `MOTIVO/VALOR`                                              |
 |------------------------|----------------------------------------------------|----------------------------------------------------------------------|
 | eu como professor      | preciso de uma ferramenta que facilite a criação de atividades interativas, que torne o aprendizado mais dinâmico e divertido. Além disso, Marcos precisa de um sistema que permita acompanhar o desempenho dos alunos em tempo real, com relatórios, e que incentive a participação dos estudantes por meio de gamificação, como pontuação e rankings. |
+| Aluno | Preciso de uma plataforma que disponibilize atividades interativas que prendam minha atenção. | Para que me motive e ajude a concentrar nas atividades acadêmicas. | 
 
 <!--ATUALIZAR a partir daqui:-->
 
