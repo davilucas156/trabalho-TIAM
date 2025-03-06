@@ -34,7 +34,7 @@ Lucas é um admirador de novas tecnologias, e apesar de suas dificuldades, ele t
 - **Necessidades**:  
 Atividades interativas e visuais que capturem sua atenção, permitindo acompanhar o progresso de forma leve e divertida, por meio de rankings ou níveis, para se sentir motivado e reconhecido.
 
-<!--atualizar a partir daqui: -->
+// atualizar a partir daqui : //
 
 ### 2 - Aluno:
 Jovem cursando graduação ou pós-graduação, tecnicamente habilidoso e acostumado a usar plataformas digitais para gerenciar atividades acadêmicas.
