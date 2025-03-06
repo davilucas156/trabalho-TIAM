@@ -35,27 +35,23 @@ modernas.
 
 ### Objetivo Geral
 
-Desenvolver e implementar um sistema de gestão acadêmica que centralize, automatize e
-agilize os processos administrativos de uma instituição de ensino, promovendo maior
-eficiência, segurança e integração entre todas as áreas envolvidas
+Desenvolver uma aplicação acadêmica interativa que permita aos professores criarem atividades gamificadas (quizzes) para engajar os alunos no processo de aprendizagem, acompanhando o progresso por meio de rankings, e promovendo maior motivação e participação ativa no ambiente educacional com desafios e recompensas.
 
 ### Objetivos Espcifícos
 
-- **Automatizar Processos Administrativos**: Eliminar tarefas manuais e repetitivas, como o cadastro de alunos, matrículas em disciplinas, e emissão de documentos, através da implementação de funcionalidades automáticas no sistema.
+- **Facilitar a criação de atividades gamificadas**: Permitir que os professores elaborem quizzes personalizados com diferentes tipos de perguntas (múltipla escolha, verdadeiro ou falso, etc.).
   
-- **Integrar Diferentes Áreas da Instituição**: Facilitar a comunicação e o fluxo de informações entre alunos, professores, coordenadores e a administração, por meio de uma plataforma centralizada.
+- **Engajar os alunos por meio de desafios**: Implementar desafios interativos que estimulem a competitividade saudável e a participação contínua.
 
-- **Melhorar o Acesso e a Gestão de Dados**: Desenvolver funcionalidades que permitam o armazenamento seguro e o acesso rápido a dados acadêmicos, como notas, frequência, e histórico escolar, promovendo uma gestão mais eficaz.
+- **Monitorar o desempenho dos alunos**: Fornecer ferramentas para que os professores acompanhem o progresso individual e coletivo dos alunos, com visualização de rankings e estatísticas.
 
-- **Garantir a Segurança e a Conformidade dos Dados**: Implementar mecanismos de segurança, como criptografia e controle de acesso, para proteger os dados sensíveis de alunos e funcionários, garantindo a conformidade com as leis de proteção de dados.
+- **Recompensar a participação**: Criar um sistema de recompensas (como medalhas virtuais, pontos, ou recompensas físicas à serem combinadas) para incentivar a realização das atividades e a superação de desafios.
 
-- **Facilitar o Ensino à Distância**: Criar módulos que suportem o ensino remoto, oferecendo funcionalidades como registro de aulas online, submissão de trabalhos, e avaliações à distância.
+- **Promover a interação e a competitividade**: Desenvolver rankings que permitam aos alunos acompanhar seu desempenho em relação aos colegas, aumentando o envolvimento nas atividades.
 
-- **Proporcionar uma Experiência de Usuário Intuitiva**: Desenvolver uma interface amigável e intuitiva para facilitar o uso do sistema por todos os seus usuários, reduzindo a curva de aprendizado e aumentando a satisfação.
+- **Garantir usabilidade e acessibilidade**: Desenvolver uma interface amigável e intuitiva para facilitar o uso por professores e alunos, independentemente de sua familiaridade com tecnologia, além de assegurar a compatibilidade com diferentes dispositivos (computadores, tablets e smartphones) para que os participantes possam acessar a plataforma de qualquer lugar..
 
-- **Realizar Testes e Validações do Sistema**: Conduzir testes rigorosos durante as fases de desenvolvimento para garantir que o sistema atenda aos requisitos funcionais e não funcionais previstos.
-
-- **Documentar o Processo de Desenvolvimento**: Produzir documentação detalhada sobre cada etapa do desenvolvimento, incluindo diagramas de arquitetura, códigos, e manuais de uso, para garantir a manutenção futura do sistema.
+- **Garantir segurança e integridade dos dados**: Implementar autenticação segura para acesso de professores e alunos (ex.: login com senha), além de garantir a privacidade dos dados dos usuários, seguindo boas práticas de proteção de informações pessoais (ex.: LGPD).
 
 ## Justificativa
 
