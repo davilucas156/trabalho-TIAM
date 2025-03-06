@@ -83,7 +83,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |-------|----------------------------------------------------------------------------------------------------|------------|
 |RF-001|**cadastro de usuario**: O sistema deve permitir que professores e alunos se cadastrem com login e senha.
  | alta    |
-|RF-02|**Compatibilidade com navegadores**:O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge). | Alta     |
+|RF-02|**perfis de usuario**:O sistema deve diferenciar perfis de professor e aluno, fornecendo permissões distintas.
+. | Alta     |
 
 // atualizar a partir daqui : // 
 
