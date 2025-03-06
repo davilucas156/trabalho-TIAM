@@ -109,10 +109,10 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 |ID|Descrição do Requisito                                                                                          | Prioridade |
 |-------|----------------------------------------------------------------------------------------------------|------------|
-|RF-001|**cadastro de usuario**: O sistema deve permitir que professores e alunos se cadastrem com login e senha.
- | alta    |
-|RF-02|**perfis de usuario**:O sistema deve diferenciar perfis de professor e aluno, fornecendo permissões distintas.
-. | Alta     |
+|RF-001|**Cadastro de usuario**: O sistema deve permitir que professores e alunos se cadastrem com login e senha. | Alta |
+|RF-02|**Perfis de usuario**: O sistema deve diferenciar perfis de professor e aluno, fornecendo permissões distintas. | Alta |
+|RF-03|**Criar quizzes**: O sistema deve permitir que os professores cadastrados criem atividades com diferentes tipos de perguntas. | Alta |
+|RF-04|**Realizar os quizzes**: O sistema deve permitir que os alunos cadastrados acessem os quizzes e respondam às questões já disponíveis. | Alta |
 
 // atualizar a partir daqui : // 
 
