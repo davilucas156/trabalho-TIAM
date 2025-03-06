@@ -8,14 +8,20 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-### 1 - Coordenador Acadêmico:
-Profissional responsável por supervisionar atividades pedagógicas, organizar o calendário acadêmico e acompanhar o desempenho de alunos e professores.
-
+### 1 - Professor:
+Nome: Marcos Oliveira
+Idade: 38 anos
+Profissão: Professor de História
+local de trabalho: Escola Municipal josé fina
 - **Descrição**:  
-  Atua entre direção, professores e alunos, gerenciando a alocação de professores, monitorando o progresso acadêmico e participando de reuniões pedagógicas para melhorar o ensino.
+Marcos é um professor dedicado e entusiasta da tecnologia. Ele busca novas formas de tornar as aulas mais interativas e engajantes para seus alunos. Além de ensinar conteúdos históricos, ele gosta de incentivar o pensamento crítico e a participação ativa dos estudantes.
+
+No dia a dia, ele precisa preparar materiais, corrigir avaliações e acompanhar o desempenho dos alunos. No entanto, sente que métodos tradicionais de ensino nem sempre motivam os estudantes a aprender.
 
 - **Necessidades**:  
-  Precisa de uma ferramenta que centralize informações acadêmicas, agilize tarefas administrativas e forneça relatórios pedagógicos detalhados para facilitar a tomada de decisões e melhorar a eficiência na gestão acadêmica.
+Uma plataforma que permita criar atividades gamificadas de forma fácil e intuitiva, acompanhar o progresso dos alunos, estímulo à participação dos alunos através de rankings, desafios e recompensas e facilidade na correção de atividades, reduzindo o tempo gasto com avaliações manuais.
+
+<!--atualizar a partir daqui: -->
 
 ### 2 - Aluno:
 Jovem cursando graduação ou pós-graduação, tecnicamente habilidoso e acostumado a usar plataformas digitais para gerenciar atividades acadêmicas.
@@ -58,18 +64,26 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 | EU COMO... `PERSONA`   | QUERO/PRECISO ... `FUNCIONALIDADE`                 | PARA ... `MOTIVO/VALOR`                                              |
 |------------------------|----------------------------------------------------|----------------------------------------------------------------------|
-| Secretaria             | Gerar relatórios de notas, frequência, histórico escolar e relação de professores | Gerenciar todas as informações referente à instituição, suprindo dúvidas de alunos e professores, além de auxiliar nas consultas e tomadas de decisão. |
-| Secretaria             | Gerenciar usuários                                  | Registrar e atualizar informações de alunos, professores e usuários do sistema. |
-| Secretaria             | Gerenciar turmas e disciplinas                      | Alocar alunos e professores nas respectivas turmas e disciplinas de maneira eficiente. |
-| Professor              | Realizar o registro de notas                        | Avaliar e informar os alunos sobre seu desempenho acadêmico.          |
-| Professor              | Realizar o controle de frequência                   | Marcar a presença de alunos de forma simples e rápida.                |
-| Professor              | Postar o calendário de aulas, provas e eventos acadêmicos | Informar os alunos sobre o cronograma das atividades acadêmicas.      |
-| Professor              | Acessar o portal do professor                       | Emitir relatórios de notas, acompanhar alunos em dependência, e gerenciar disciplinas pelas quais sou responsável. |
-| Aluno                  | Acessar os materiais de aula                        | Estudar e revisar conteúdos disponibilizados pelos professores a qualquer momento. |
-| Aluno                  | Visualizar o calendário acadêmico                   | Acompanhar as datas de aulas, provas e eventos importantes para me organizar. |
-| Aluno                  | Usar o portal do aluno                              | Consultar notas, horários de aula e histórico acadêmico de forma fácil. |
-| Usuário do sistema     | Receber notificações sobre eventos importantes      | Informar-me sobre provas, aulas, atividades, e outras atualizações relevantes. |
-| Usuário do sistema     | Acessar o portal principal                          | Obter informações sobre a instituição, bolsas, grades curriculares, professores, e currículo acadêmico. |
+| eu como professor      | preciso de uma ferramenta que facilite a criação de atividades interativas, que torne o aprendizado mais dinâmico e divertido. Além disso, Marcos precisa de um sistema que permita acompanhar o desempenho dos alunos em tempo real, com relatórios, e que incentive a participação dos estudantes por meio de gamificação, como pontuação e rankings. |
+
+<!--ATUALIZAR a partir daqui:-->
+
+| `PERSONA`     |                                   |  |
+| `PERSONA`              | Gerenciar turmas e disciplinas               | Alocar alunos e professores nas respectivas turmas e disciplinas de maneira eficiente.    |
+
+| `PERSONA`              | Realizar o registro de notas                        | Avaliar e informar os alunos sobre seu desempenho acadêmico.               |
+
+| `PERSONA`              | Realizar o controle de frequência                   | Marcar a presença de alunos de forma simples e rápida.                  |
+
+|`PERSONA`               | Postar o calendário de aulas, provas e eventos acadêmicos | Informar os alunos sobre o cronograma das atividades acadêmicas.   |
+
+| `PERSONA`              | Acessar o portal do professor                       | Emitir relatórios de notas, acompanhar alunos em dependência, e gerenciar disciplinas pelas quais sou responsável. |
+
+| `PERSONA`                  | Acessar os materiais de aula                        | Estudar e revisar conteúdos disponibilizados pelos professores a qualquer momento. |
+| `PERSONA`                  | Visualizar o calendário acadêmico                   | Acompanhar as datas de aulas, provas e eventos importantes para me organizar. |
+| `PERSONA`                  | Usar o portal do aluno                              | Consultar notas, horários de aula e histórico acadêmico de forma fácil. |
+| `PERSONA`     | Receber notificações sobre eventos importantes      | Informar-me sobre provas, aulas, atividades, e outras atualizações relevantes. |
+| `PERSONA`     | Acessar o portal principal                          | Obter informações sobre a instituição, bolsas, grades curriculares, professores, e currículo acadêmico. |
 
 ## Requisitos
 
