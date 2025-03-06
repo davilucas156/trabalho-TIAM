@@ -81,8 +81,12 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 |ID|Descrição do Requisito                                                                                          | Prioridade |
 |-------|----------------------------------------------------------------------------------------------------|------------|
-|RF-001|**Portal do Secretário**: O sistema deve permitir que o secretário gere os relatórios de notas, frequência, histórico escolar e relação de professores. | Média      |
-|RF-02|**Gerenciamento de Usuários**: O sistema deve permitir que o secretário cadastre e gerencie usuários, como alunos e professores. | Alta       |
+|RF-001|**cadastro de usuario**: O sistema deve permitir que professores e alunos se cadastrem com login e senha.
+ | alta    |
+|RF-02|**Compatibilidade com navegadores**:O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge). | Alta     |
+
+// atualizar a partir daqui : // 
+
 |RF-03|**Gerenciamento de Turmas**: O sistema deve permitir que o secretário aloque alunos e professores em turmas e disciplinas. | Média      |
 |RF-04|**Registro de Notas**: O sistema deve permitir que professores registrem e alterem as notas dos alunos. | Alta       |
 |RF-05|**Controle de Frequência**: O sistema deve permitir que professores marquem a presença dos alunos nas aulas. | Alta       |
