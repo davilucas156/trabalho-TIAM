@@ -21,6 +21,19 @@ No dia a dia, ele precisa preparar materiais, corrigir avaliações e acompanhar
 - **Necessidades**:  
 Uma plataforma que permita criar atividades gamificadas de forma fácil e intuitiva, acompanhar o progresso dos alunos, estímulo à participação dos alunos através de rankings, desafios e recompensas e facilidade na correção de atividades, reduzindo o tempo gasto com avaliações manuais.
 
+### 2 - Aluno:
+Nome: Lucas Almeida
+Idade: 14 anos
+Série: 8° ano do Ensino Fundamental
+Instituição de ensino: Escola Municipal josé fina
+- **Descrição**:  
+Lucas é um aluno esforçado, mas tem dificuldades em se concentrar em atividades tradicionais, como leituras extensas e aulas expositivas. Ele se sente desmotivado quando as aulas seguem um formato muito rígido e repetitivo, pois sua atenção tende a se dispersar com facilidade.
+
+Lucas é um admirador de novas tecnologias, e apesar de suas dificuldades, ele tem potencial para se destacar quando é estimulado de maneira dinâmica e prática. 
+
+- **Necessidades**:  
+Atividades interativas e visuais que capturem sua atenção, permitindo acompanhar o progresso de forma leve e divertida, por meio de rankings ou níveis, para se sentir motivado e reconhecido.
+
 <!--atualizar a partir daqui: -->
 
 ### 2 - Aluno:
