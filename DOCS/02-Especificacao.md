@@ -34,6 +34,20 @@ Lucas é um admirador de novas tecnologias, e apesar de suas dificuldades, ele t
 - **Necessidades**:  
 Atividades interativas e visuais que capturem sua atenção, permitindo acompanhar o progresso de forma leve e divertida, por meio de rankings ou níveis, para se sentir motivado e reconhecido.
 
+### 3 - Aluno:
+Nome: Ana Beatriz Oliveira
+Idade: 15 anos
+Série: 1° ano do Ensino Médio
+Instituição de ensino: Escola Estadual Nossa Senhora do Carmo
+- **Descrição**:
+Ana Beatriz é uma aluna curiosa e criativa, mas muitas vezes se sente desinteressada pelas metodologias tradicionais de ensino, como aulas expositivas e exercícios repetitivos. Ela aprende melhor quando pode interagir com o conteúdo de forma prática e visual, especialmente quando há elementos lúdicos ou competitivos envolvidos.
+
+Ana adora jogos, desafios e atividades em grupo, pois se sente mais engajada quando pode colaborar ou competir com os colegas. No entanto, ela tem dificuldade em manter o foco em atividades longas e monótonas, o que afeta seu desempenho em algumas disciplinas.
+
+- **Necessidades**:
+Atividades gamificadas que combinem desafios, recompensas visuais (como badges ou medalhas) e a possibilidade de competir de forma saudável com os colegas. Ela também precisa de feedback imediato sobre seu desempenho para se sentir motivada a melhorar.
+
+
 // atualizar a partir daqui : //
 
 ### 2 - Aluno:
@@ -79,6 +93,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |------------------------|----------------------------------------------------|----------------------------------------------------------------------|
 | eu como professor      | preciso de uma ferramenta que facilite a criação de atividades interativas, que torne o aprendizado mais dinâmico e divertido. Além disso, Marcos precisa de um sistema que permita acompanhar o desempenho dos alunos em tempo real, com relatórios, e que incentive a participação dos estudantes por meio de gamificação, como pontuação e rankings. |
 | Aluno | Preciso de uma plataforma que disponibilize atividades interativas que prendam minha atenção. | Para que me motive e ajude a concentrar nas atividades acadêmicas. | 
+| Aluno | Ver meu progresso e posição no ranking da turma | Eu possa me motivar a melhorar. |
 
 <!--ATUALIZAR a partir daqui:-->
 
@@ -109,10 +124,12 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 |ID|Descrição do Requisito                                                                                          | Prioridade |
 |-------|----------------------------------------------------------------------------------------------------|------------|
-|RF-001|**Cadastro de usuario**: O sistema deve permitir que professores e alunos se cadastrem com login e senha. | Alta |
+|RF-01|**Cadastro de usuario**: O sistema deve permitir que professores e alunos se cadastrem com login e senha. | Alta |
 |RF-02|**Perfis de usuario**: O sistema deve diferenciar perfis de professor e aluno, fornecendo permissões distintas. | Alta |
 |RF-03|**Criar quizzes**: O sistema deve permitir que os professores cadastrados criem atividades com diferentes tipos de perguntas. | Alta |
 |RF-04|**Realizar os quizzes**: O sistema deve permitir que os alunos cadastrados acessem os quizzes e respondam às questões já disponíveis. | Alta |
+|RF-05|**Criação de turmas por disciplina**: O sistema deve permitir aos professores a criação de turmas de acordo com as disciplinas que os alunos possuem. | Alta |
+|RF-06|**Ranking e progresso dos alunos**: O sistema deve exibir rankings gerais e por turma, mostrando o progresso dos alunos. | Alta |
 
 // atualizar a partir daqui : // 
 
@@ -133,6 +150,10 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |ID    | Descrição                                                                                    |
 |------|----------------------------------------------------------------------------------------------|
 |RNF-01| Segurança: O sistema deve proteger os dados dos usuários contra acessos não autorizados.|
+|RNF-02| Manutenibilidade: O código-fonte deve ser modular e documentado, permitindo que novas funcionalidades sejam adicionadas com facilidade.|
+
+// atualizar a partir daqui : // 
+
 |RNF-02| Rapidez: O sistema deve responder rapidamente às ações dos usuários, sem demoras.|
 |RNF-03| Facilidade de Uso: O sistema deve ser fácil de usar, mesmo para quem não tem muita experiência com tecnologia.|
 |RNF-04| Disponibilidade: O sistema deve estar disponível para uso quase o tempo todo, com raras interrupções. |
@@ -150,7 +171,9 @@ O projeto está restrito aos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |001| O projeto deverá ser entregue até o final do semestre |
-|002| O custo total do projeto não deve exceder o orçamento definido       |
+|002| O escopo do projeto deve ser mantido dentro dos requisitos mínimos viáveis (MVP), priorizando funcionalidades essenciais para a gamificação de quizzes. |
+|003| O projeto deve utilizar tecnologias acessíveis e amplamente documentadas, como HTML, CSS, JavaScript (React ou Vue.js), e Node.js. |
+|004| O sistema não terá acesso a dados sensíveis dos alunos, como informações financeiras ou médicas, limitando-se a dados acadêmicos básicos (nome, e-mail, desempenho em quizzes). |
 
 ## Diagrama de casos de uso
 
