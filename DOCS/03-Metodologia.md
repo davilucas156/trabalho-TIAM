@@ -8,10 +8,10 @@ Metodologia de trabalho do grupo para abordar o problema, incluindo definições
 
 | Ambiente                        | Plataforma                         | Link de Acesso |
 |---------------------------------|------------------------------------|---------------|
-| Repositório de código fonte     | GitHub                             | [Código Fonte](https://github.com/usuario/repositorio) |
-| Documentos do projeto           | GitHub                             | [Documentação](https://github.com/usuario/repositorio/docs) |
+| Repositório de código fonte     | GitHub                             | [Código Fonte](https://github.com/davilucas156/trabalho-TIAM) |
+| Documentação do projeto         | GitHub                             | [Documentação](https://github.com/davilucas156/trabalho-TIAM/DOCS) |
 | Projeto de interface            | Marvel                             | [Prototipação](https://marvelapp.com/project/7141818) |
-| Gerenciamento do projeto        | Trello                             | [Trello](https://trello.com/invite/b/66cdcab69588992f681dee9a/ATTI0d2a32927d86155de4e98c28658624ffBC565322/gestao-academica) |
+| Gerenciamento do projeto        | Trello                             | [Trello](https://trello.com/b/CQkesEpM/game-escolar) |
 | Ambiente de desenvolvimento     | Visual Studio Code                 | - |
 | API Documentation               | Swagger                            | - |
 | Controle de versão              | Git                                | - |
