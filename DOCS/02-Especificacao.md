@@ -143,6 +143,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RF-10|**Portal do Aluno**: O sistema deve permitir que alunos vejam as suas notas, horários de aula e histórico escolar. | Alta       |
 |RF-11|**Envio de Notificações**: O sistema deve enviar notificações aos usuários sobre eventos, como provas e alterações nas aulas. | Alta       |
 |RF-12|**Portal Principal**: O sistema deve permitir que qualquer pessoa veja as informações sobre a instituição, bolsas, grades curriculares, professores e currículo acadêmico. | Baixa      |
+|RF-13|**Notificações para novos quizzes e atualizações**: O sistema deve enviar notificações para os alunos e professores quando novos quizzes forem criados ou quando houver atualizações importantes sobre os quizzes existentes. |Média|
+|RF-14| **Feedback das atividades**: O sistema deve permitir que os professores forneçam feedback detalhado aos alunos após a conclusão de um quiz ou atividade. | Alta |
 
 
 ### Requisitos não funcionais
@@ -157,6 +159,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RNF-06 | Confiabilidade: O sistema deve garantir que os dados não sejam perdidos ou corrompidos.|
 |RNF-07 | Compatibilidade: O sistema deve funcionar bem junto com outros programas que a instituição já usa.|
 |RNF-08 | Escalabilidade: O sistema deve ser capaz de crescer e acomodar mais usuários conforme necessário.|
+|RNF-09 | Usabilidade em dispositivos móveis: O sistema deve ser totalmente acessível e funcional em dispositivos móveis, como smartphones e tablets, garantindo uma boa experiência para os usuários.|
 
 ## Restrições
 
