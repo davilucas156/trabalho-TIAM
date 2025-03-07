@@ -9,7 +9,7 @@ Metodologia de trabalho do grupo para abordar o problema, incluindo definições
 | Ambiente                        | Plataforma                         | Link de Acesso |
 |---------------------------------|------------------------------------|---------------|
 | Repositório de código fonte     | GitHub                             | [Código Fonte](https://github.com/davilucas156/trabalho-TIAM) |
-| Documentação do projeto         | GitHub                             | [Documentação](https://github.com/davilucas156/trabalho-TIAM/DOCS) |
+| Documentação do projeto         | GitHub                             | [Documentação](https://github.com/davilucas156/trabalho-TIAM/tree/main/DOCS) |
 | Projeto de interface            | Marvel                             | [Prototipação](https://marvelapp.com/project/7141818) |
 | Gerenciamento do projeto        | Trello                             | [Trello](https://trello.com/b/CQkesEpM/game-escolar) |
 | Ambiente de desenvolvimento     | Visual Studio Code                 | - |
@@ -47,10 +47,33 @@ Está é a divisão de papéis entre os membros do grupo, considerando que adota
 
 As tarefas do projeto são organizadas no Trello e acompanhadas durante as Sprints. 🔗 **[Divisão das tarefas no Trello](https://trello.com/b/CQkesEpM/game-escolar)**
 
+---
+
 ### 🔧 Padrões de Código
 
 Não sei oq colocar
 
 ---
 
+### 📌 Padrão de Commits
+Para manter um histórico organizado e facilitar o entendimento das alterações, seguimos o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/):
 
+**Formato:**
+```bash
+<tipo>: <descrição breve>
+```
+
+**Tipos comuns:**
+- `feat`: Adição de uma nova funcionalidade.
+- `fix`: Correção de um bug.
+- `docs`: Alterações na documentação.
+- `style`: Alterações de formatação, indentação, etc. (sem alteração de código funcional).
+- `refactor`: Refatoração de código sem alterar funcionalidade.
+
+**Exemplos:**
+```bash
+feat: adicionar login com Google
+fix: corrigir erro na autenticação
+docs: atualizar README com informações de instalação
+```
+---
