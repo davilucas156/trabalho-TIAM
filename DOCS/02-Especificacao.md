@@ -85,6 +85,15 @@ administração e os alunos.
 organização de avaliações e a comunicação rápida com estudantes,
 otimizando o tempo dedicado ao ensino e à orientação.
 
+### 5 - Professor: 
+
+-**Descrição**:
+Este professor possui anos de experiência no ensino de conteúdos técnicos e valoriza uma abordagem equilibrada entre metodologias tradicionais e inovações tecnológicas. Ele utiliza ferramentas digitais de forma moderada, buscando melhorar a gestão de suas turmas e a comunicação com os alunos.
+
+-**Necessidades**:
+Precisa de uma plataforma que facilite a criação e organização de atividades, além de um sistema simples para registrar notas e acompanhar o progresso de cada aluno. Ele também busca uma ferramenta que permita uma comunicação eficiente com os estudantes e a gestão de suas turmas, economizando tempo para focar no ensino.
+
+
 ## Histórias de usuários
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
@@ -94,6 +103,8 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | eu como professor      | preciso de uma ferramenta que facilite a criação de atividades interativas, que torne o aprendizado mais dinâmico e divertido. Além disso, Marcos precisa de um sistema que permita acompanhar o desempenho dos alunos em tempo real, com relatórios, e que incentive a participação dos estudantes por meio de gamificação, como pontuação e rankings. |
 | Aluno | Preciso de uma plataforma que disponibilize atividades interativas que prendam minha atenção. | Para que me motive e ajude a concentrar nas atividades acadêmicas. | 
 | Aluno | Ver meu progresso e posição no ranking da turma | Eu possa me motivar a melhorar. |
+
+| Eu como secretário	| Preciso de um sistema que automatize o processo de matrícula e gere documentos automaticamente.	| Para reduzir a carga de trabalho manual e aumentar a eficiência na gestão acadêmica. |
 
 <!--ATUALIZAR a partir daqui:-->
 
