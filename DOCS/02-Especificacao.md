@@ -149,20 +149,14 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 |ID    | Descrição                                                                                    |
 |------|----------------------------------------------------------------------------------------------|
-|RNF-01| Segurança: O sistema deve proteger os dados dos usuários contra acessos não autorizados.|
-|RNF-02| Manutenibilidade: O código-fonte deve ser modular e documentado, permitindo que novas funcionalidades sejam adicionadas com facilidade.|
-
-// atualizar a partir daqui : // 
-
-|RNF-02| Rapidez: O sistema deve responder rapidamente às ações dos usuários, sem demoras.|
-|RNF-03| Facilidade de Uso: O sistema deve ser fácil de usar, mesmo para quem não tem muita experiência com tecnologia.|
-|RNF-04| Disponibilidade: O sistema deve estar disponível para uso quase o tempo todo, com raras interrupções. |
-|RNF-05| Acessibilidade: O sistema deve funcionar bem em diferentes dispositivos, como computadores e celulares.|
-|RNF-06| Facilidade de Manutenção: O sistema deve ser fácil de atualizar e corrigir problemas, sem complicações.|
-|RNF-07| Confiabilidade: O sistema deve garantir que os dados não sejam perdidos ou corrompidos.|
-|RNF-08| Compatibilidade: O sistema deve funcionar bem junto com outros programas que a instituição já usa.|
-|RNF-09| Escalabilidade: O sistema deve ser capaz de crescer e acomodar mais usuários conforme necessário.|
-|RNF-10| Eficiência: O sistema deve usar os recursos de hardware de forma eficaz, sem desperdício de energia ou capacidade.|
+|RNF-01 | Segurança: O sistema deve proteger os dados dos usuários contra acessos não autorizados.|
+|RNF-02 | Rapidez: O sistema deve responder rapidamente às ações dos usuários, sem demoras.|
+|RNF-03 | Facilidade de Uso: O sistema deve ser fácil de usar, mesmo para quem não tem muita experiência com tecnologia.|
+|RNF-04 | Disponibilidade: O sistema deve estar disponível para uso quase o tempo todo, com raras interrupções. |
+|RNF-05 | Facilidade de Manutenção: O sistema deve ser fácil de atualizar e corrigir problemas, sem complicações.|
+|RNF-06 | Confiabilidade: O sistema deve garantir que os dados não sejam perdidos ou corrompidos.|
+|RNF-07 | Compatibilidade: O sistema deve funcionar bem junto com outros programas que a instituição já usa.|
+|RNF-08 | Escalabilidade: O sistema deve ser capaz de crescer e acomodar mais usuários conforme necessário.|
 
 ## Restrições
 
