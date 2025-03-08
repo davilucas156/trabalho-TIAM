@@ -141,6 +141,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RF-04|**Realizar os quizzes**: O sistema deve permitir que os alunos cadastrados acessem os quizzes e respondam às questões já disponíveis. | Alta |
 |RF-05|**Criação de turmas por disciplina**: O sistema deve permitir aos professores a criação de turmas de acordo com as disciplinas que os alunos possuem. | Alta |
 |RF-06|**Ranking e progresso dos alunos**: O sistema deve exibir rankings gerais e por turma, mostrando o progresso dos alunos. | Alta |
+|RF-07|**Estatísticas Gerais**: O sistema deve exibir um overview ao final do Quizz com número de acertos e erros. | Média |
+|RF-08|**Criação de salas**: O sistema deve permitir a criação de salas personalizadas por professores. | Média |
 
 // atualizar a partir daqui : // 
 
