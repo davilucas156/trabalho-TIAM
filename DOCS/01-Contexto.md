@@ -3,20 +3,9 @@
 O processo de aprendizagem é cada vez mais reconhecido como uma jornada contínua e interativa, na qual a motivação e o engajamento desempenham papéis cruciais na retenção de conhecimento. Com o avanço da tecnologia, ferramentas digitais, como os quizzes, têm se mostrado eficazes na criação de ambientes de aprendizado mais dinâmicos e atrativos. Este trabalho propõe o desenvolvimento de um software web para a realização de quizzes, cujo objetivo é facilitar o aprendizado e o estudo de qualquer pessoa, independentemente da área de interesse ou nível de conhecimento. Além de permitir a criação de quizzes personalizados, a plataforma contará com funcionalidades de gamificação, incorporando elementos como pontuação, rankings e desafios, com o intuito de tornar a experiência mais envolvente e estimulante. A gamificação, ao integrar mecânicas de jogos, visa aumentar a motivação do usuário, tornando o estudo mais prazeroso e eficaz.
 
 ## Problema
-O problema que este projeto pretende resolver está relacionado à ineficiência e à fragmentação dos
-processos administrativos em instituições de ensino, resultando em processos lentos e suscetíveis a
-erros. Muitas dessas instituições ainda dependem de métodos manuais ou sistemas desconectados
-para gerenciar tarefas cruciais, como o cadastro de alunos, a organização de turmas, o
-acompanhamento de desempenho acadêmico e a comunicação entre alunos, professores e
-administradores. 
+A educação tradicional, muitas vezes, enfrenta desafios no engajamento dos alunos, especialmente em contextos de estudo individual, onde a falta de motivação e o cansaço mental podem prejudicar a retenção de informações. Além disso, a crescente necessidade de ferramentas de aprendizado acessíveis e adaptáveis para diferentes públicos exige novas abordagens que se alinhem às demandas contemporâneas. Apesar da grande quantidade de recursos digitais disponíveis, muitos deles ainda carecem de funcionalidades interativas que possam realmente captar o interesse dos usuários e estimular uma prática contínua e produtiva de estudo.
 
-Essa falta de integração e automatização não apenas gera retrabalho, mas também
-dificulta o acesso a informações atualizadas e compromete a eficiência operacional. Com o
-crescimento da digitalização e o aumento da demanda por ensino à distância, a necessidade de uma
-solução que centralize e agilize esses processos se torna ainda mais evidente. A motivação deste
-projeto é, portanto, desenvolver um sistema capaz de otimizar essas operações, promovendo uma
-gestão acadêmica mais ágil, segura e eficiente, que atenda às demandas das instituições de ensino
-modernas.
+Diante disso, surge a necessidade de desenvolver uma plataforma de quizzes que, além de proporcionar uma forma eficaz de revisar conteúdos, incorpore elementos de gamificação, como pontuação, desafios e recompensas, para tornar o aprendizado mais envolvente e dinâmico. A ausência de uma solução integrada que combine o caráter educativo dos quizzes com a motivação proporcionada pelos jogos representa uma lacuna a ser explorada.
 
 ## Objetivos
 
