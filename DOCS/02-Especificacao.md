@@ -9,7 +9,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 ### 1 - Professor:
-Nome: Marcos Oliveira
+Nome: Marcos Oliveira <br>
 Idade: 38 anos
 Profissão: Professor de História
 local de trabalho: Escola Municipal josé fina
