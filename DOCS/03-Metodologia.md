@@ -37,7 +37,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 Está é a divisão de papéis entre os membros do grupo, considerando que adotaremos a metodologia ágil SCRUM.
 
 - **Scrum Master**: Davi Lucas
-- **Product Owner**: Alessandro Goes
+- **Product Owner**: Alessandro Gomes
 - **Equipe de Desenvolvimento**:
   - **Desenvolvedor Frontend**: Pedro
   - **Desenvolvedor Backend**: Arthur
@@ -77,3 +77,17 @@ fix: corrigir erro na autenticação
 docs: atualizar README com informações de instalação
 ```
 ---
+### Ferramentas
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue;
+
+| Ambiente                            | Plataforma                         | Link de acesso                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             | [Código Fonte](https://github.com/davilucas156/trabalho-TIAM.git)               |
+| Documentos do projeto               | GitHub                             | [Documentação](https://github.com/davilucas156/trabalho-TIAM/tree/main/DOCS)                       |
+| ambiente de desenvolvimento         |
+| Projeto de interface                | Marvel                             | [Prototipação](https://marvelapp.com/project/7141818)|
+| Gerenciamento do projeto            | Trello                             | [Gerenciciametno no Trello](https://trello.com/invite/b/67c9a14722d233e3c24675a9/ATTIb2c4785c413fecf086495d9862db22b90868C5E3/game-escolar)|
+| Hospedagem                          | A definir                          | http://....                            |
+ 
+
