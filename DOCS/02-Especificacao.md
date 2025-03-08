@@ -10,9 +10,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ### 1 - Professor:
 Nome: Marcos Oliveira <br>
-Idade: 38 anos
-Profissão: Professor de História
-local de trabalho: Escola Municipal josé fina
+Idade: 38 anos <br>
+Profissão: Professor de História <br>
+local de trabalho: Escola Municipal josé fina <br>
 - **Descrição**:  
 Marcos é um professor dedicado e entusiasta da tecnologia. Ele busca novas formas de tornar as aulas mais interativas e engajantes para seus alunos. Além de ensinar conteúdos históricos, ele gosta de incentivar o pensamento crítico e a participação ativa dos estudantes.
 
@@ -22,10 +22,10 @@ No dia a dia, ele precisa preparar materiais, corrigir avaliações e acompanhar
 Uma plataforma que permita criar atividades gamificadas de forma fácil e intuitiva, acompanhar o progresso dos alunos, estímulo à participação dos alunos através de rankings, desafios e recompensas e facilidade na correção de atividades, reduzindo o tempo gasto com avaliações manuais.
 
 ### 2 - Aluno:
-Nome: Lucas Almeida
-Idade: 14 anos
-Série: 8° ano do Ensino Fundamental
-Instituição de ensino: Escola Municipal josé fina
+Nome: Lucas Almeida <br>
+Idade: 14 anos <br>
+Série: 8° ano do Ensino Fundamental <br>
+Instituição de ensino: Escola Municipal josé fina <br>
 - **Descrição**:  
 Lucas é um aluno esforçado, mas tem dificuldades em se concentrar em atividades tradicionais, como leituras extensas e aulas expositivas. Ele se sente desmotivado quando as aulas seguem um formato muito rígido e repetitivo, pois sua atenção tende a se dispersar com facilidade.
 
@@ -35,10 +35,10 @@ Lucas é um admirador de novas tecnologias, e apesar de suas dificuldades, ele t
 Atividades interativas e visuais que capturem sua atenção, permitindo acompanhar o progresso de forma leve e divertida, por meio de rankings ou níveis, para se sentir motivado e reconhecido.
 
 ### 3 - Aluno:
-Nome: Ana Beatriz Oliveira
-Idade: 15 anos
-Série: 1° ano do Ensino Médio
-Instituição de ensino: Escola Estadual Nossa Senhora do Carmo
+Nome: Ana Beatriz Oliveira <br>
+Idade: 15 anos <br>
+Série: 1° ano do Ensino Médio <br>
+Instituição de ensino: Escola Estadual Nossa Senhora do Carmo <br>
 - **Descrição**:
 Ana Beatriz é uma aluna curiosa e criativa, mas muitas vezes se sente desinteressada pelas metodologias tradicionais de ensino, como aulas expositivas e exercícios repetitivos. Ela aprende melhor quando pode interagir com o conteúdo de forma prática e visual, especialmente quando há elementos lúdicos ou competitivos envolvidos.
 
@@ -48,10 +48,10 @@ Ana adora jogos, desafios e atividades em grupo, pois se sente mais engajada qua
 Atividades gamificadas que combinem desafios, recompensas visuais (como badges ou medalhas) e a possibilidade de competir de forma saudável com os colegas. Ela também precisa de feedback imediato sobre seu desempenho para se sentir motivada a melhorar.
 
 ### 4 - Professor:
-Nome: Felipe Costa
-Idade: 45 anos
-Profissão: Professor de Matemática
-Instituição de ensino:  Colégio São João
+Nome: Felipe Costa <br>
+Idade: 45 anos <br>
+Profissão: Professor de Matemática <br>
+Instituição de ensino:  Colégio São João <br>
 
 - **Descrição**:
 Felipe é um professor experiente, com mais de 20 anos de carreira, que leciona Matemática para alunos do ensino médio. Ele sempre foi apaixonado pela sua área de atuação, mas percebe que muitos alunos têm dificuldades em se concentrar e se interessar pela disciplina. A Matemática, com seus conceitos abstratos, muitas vezes se torna um obstáculo para o aprendizado, e Felipe está sempre buscando formas inovadoras de ensinar. Seu estilo de ensino é focado em ajudar os alunos a entenderem os conceitos de forma clara e prática, mas ele sente que suas abordagens tradicionais não têm sido suficientemente eficazes para engajar seus alunos de maneira contínua.
