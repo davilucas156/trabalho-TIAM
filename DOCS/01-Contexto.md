@@ -1,19 +1,6 @@
 # Introdução
 
-Este trabalho aborda o desenvolvimento de um sistema de gestão acadêmica, um software essencial
-para otimizar a administração de instituições de ensino. Em um contexto onde a transformação
-digital tem impulsionado a eficiência e a competitividade em diversos setores, a educação não pode
-ficar para trás. Instituições de ensino enfrentam desafios crescentes na organização de dados, na
-comunicação com estudantes e na execução de tarefas administrativas diárias. De acordo com um
-estudo da EDUCAUSE (2019), mais de 70% das instituições que adotaram sistemas de gestão
-acadêmica relataram melhorias significativas na eficiência operacional e na satisfação dos alunos. 
-
-No Brasil, a demanda por soluções tecnológicas no setor educacional tem crescido exponencialmente,
-especialmente com o aumento do ensino à distância e da necessidade de ferramentas que
-centralizem e automatizem processos. Este trabalho, portanto, se insere na interseção entre
-tecnologia da informação e gestão educacional, buscando desenvolver um sistema que não apenas
-atenda às necessidades operacionais, mas que também promova um ambiente de aprendizado mais
-eficiente e integrado.
+O processo de aprendizagem é cada vez mais reconhecido como uma jornada contínua e interativa, na qual a motivação e o engajamento desempenham papéis cruciais na retenção de conhecimento. Com o avanço da tecnologia, ferramentas digitais, como os quizzes, têm se mostrado eficazes na criação de ambientes de aprendizado mais dinâmicos e atrativos. Este trabalho propõe o desenvolvimento de um software web para a realização de quizzes, cujo objetivo é facilitar o aprendizado e o estudo de qualquer pessoa, independentemente da área de interesse ou nível de conhecimento. Além de permitir a criação de quizzes personalizados, a plataforma contará com funcionalidades de gamificação, incorporando elementos como pontuação, rankings e desafios, com o intuito de tornar a experiência mais envolvente e estimulante. A gamificação, ao integrar mecânicas de jogos, visa aumentar a motivação do usuário, tornando o estudo mais prazeroso e eficaz.
 
 ## Problema
 O problema que este projeto pretende resolver está relacionado à ineficiência e à fragmentação dos
