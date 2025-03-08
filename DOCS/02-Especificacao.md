@@ -47,6 +47,18 @@ Ana adora jogos, desafios e atividades em grupo, pois se sente mais engajada qua
 - **Necessidades**:
 Atividades gamificadas que combinem desafios, recompensas visuais (como badges ou medalhas) e a possibilidade de competir de forma saudável com os colegas. Ela também precisa de feedback imediato sobre seu desempenho para se sentir motivada a melhorar.
 
+### 4 - Professor:
+Nome: Felipe Costa
+Idade: 45 anos
+Profissão: Professor de Matemática
+Instituição de ensino:  Colégio São João
+
+- **Descrição**:
+Felipe é um professor experiente, com mais de 20 anos de carreira, que leciona Matemática para alunos do ensino médio. Ele sempre foi apaixonado pela sua área de atuação, mas percebe que muitos alunos têm dificuldades em se concentrar e se interessar pela disciplina. A Matemática, com seus conceitos abstratos, muitas vezes se torna um obstáculo para o aprendizado, e Felipe está sempre buscando formas inovadoras de ensinar. Seu estilo de ensino é focado em ajudar os alunos a entenderem os conceitos de forma clara e prática, mas ele sente que suas abordagens tradicionais não têm sido suficientemente eficazes para engajar seus alunos de maneira contínua.
+
+- **Necessidades**:
+Tornar as aulas mais dinâmicas e acessíveis, especialmente para alunos que têm dificuldades em Matemática. Quer aumentar a motivação dos alunos e a participação ativa nas aulas.
+
 
 // atualizar a partir daqui : //
 
