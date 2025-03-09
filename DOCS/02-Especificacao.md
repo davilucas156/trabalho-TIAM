@@ -64,10 +64,10 @@ Nome: Gustavo Tubarão <br>
 Idade: 77 anos <br>
 Profissão: Professor de Computação <br>
 Instituição de ensino: Puc Minas <br>
--**Descrição**:
+- **Descrição**:
 Este professor possui anos de experiência no ensino de conteúdos técnicos e valoriza uma abordagem equilibrada entre metodologias tradicionais e inovações tecnológicas. Ele utiliza ferramentas digitais de forma moderada, buscando melhorar a gestão de suas turmas e a comunicação com os alunos.
 
--**Necessidades**:
+- **Necessidades**:
 Precisa de uma plataforma que facilite a criação e organização de atividades, além de um sistema simples para registrar notas e acompanhar o progresso de cada aluno. Ele também busca uma ferramenta que permita uma comunicação eficiente com os estudantes e a gestão de suas turmas, economizando tempo para focar no ensino.
 
 ### 6 - Coordenadora: 
@@ -75,10 +75,10 @@ Nome: Caroline Pereira <br>
 Idade: 36 anos <br>
 Profissão: Corrdenardora Pedagógica <br>
 Instituição de ensino: Escola Estadual Padre Luiz Turkenburg
--**Descrição**:
+- **Descrição**:
 A coordenar é responsável pelas atividades pedagógicas da escola, garantindo a qualidade do ensino e o desenvolvimento dos alunos. Ela atua no suporte aos professores, na organização do calendário escolar e na implementação de metodologias que tornem o aprendizado mais eficaz. Além disso, acompanha o desempenho dos estudantes e busca formas de engajá-los nas atividades acadêmicas. Seu dia a dia envolve reuniões com docentes, atendimento a pais e alunos, além de planejamento estratégico para melhorar os resultados da escola.
 
--**Necessidades**:
+- **Necessidades**:
 Uma plataforma que ajude a monitorar o desempenho dos alunos e identificar dificuldades de aprendizado.
 Ferramentas para apoiar os professores na criação de atividades interativas e avaliações.
 Relatórios detalhados sobre a evolução dos estudantes e turmas.
