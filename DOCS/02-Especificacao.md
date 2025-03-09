@@ -105,7 +105,7 @@ Este professor possui anos de experiência no ensino de conteúdos técnicos e v
 -**Necessidades**:
 Precisa de uma plataforma que facilite a criação e organização de atividades, além de um sistema simples para registrar notas e acompanhar o progresso de cada aluno. Ele também busca uma ferramenta que permita uma comunicação eficiente com os estudantes e a gestão de suas turmas, economizando tempo para focar no ensino.
 
-### 5 - Coordenadora Pedagógica: 
+### 6 - Coordenadora Pedagógica: 
 
 -**Descrição**:
 A coordenar é responsável pelas atividades pedagógicas da escola, garantindo a qualidade do ensino e o desenvolvimento dos alunos. Ela atua no suporte aos professores, na organização do calendário escolar e na implementação de metodologias que tornem o aprendizado mais eficaz. Além disso, acompanha o desempenho dos estudantes e busca formas de engajá-los nas atividades acadêmicas. Seu dia a dia envolve reuniões com docentes, atendimento a pais e alunos, além de planejamento estratégico para melhorar os resultados da escola.
@@ -148,6 +148,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | `PERSONA`                  | Usar o portal do aluno                              | Consultar notas, horários de aula e histórico acadêmico de forma fácil. |
 | `PERSONA`     | Receber notificações sobre eventos importantes      | Informar-me sobre provas, aulas, atividades, e outras atualizações relevantes. |
 | `PERSONA`     | Acessar o portal principal                          | Obter informações sobre a instituição, bolsas, grades curriculares, professores, e currículo acadêmico. |
+| Coordenador | Quero monitorar o desempenho dos alunos e apoiar os professores na criação de atividades interativas. | Para identificar dificuldades de aprendizado e implementar estratégias pedagógicas mais eficazes. |
 
 ## Requisitos
 
@@ -182,8 +183,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RF-12|**Portal Principal**: O sistema deve permitir que qualquer pessoa veja as informações sobre a instituição, bolsas, grades curriculares, professores e currículo acadêmico. | Baixa      |
 |RF-13|**Notificações para novos quizzes e atualizações**: O sistema deve enviar notificações para os alunos e professores quando novos quizzes forem criados ou quando houver atualizações importantes sobre os quizzes existentes. |Média|
 |RF-14| **Feedback das atividades**: O sistema deve permitir que os professores forneçam feedback detalhado aos alunos após a conclusão de um quiz ou atividade. | Alta |
-
-
+|RF-15|**Relatórios de Desempenho**: O sistema deve gerar relatórios detalhados sobre o desempenho dos alunos nos quizzes, permitindo que professores e coordenadores acompanhem a evolução de cada estudante e identifiquem dificuldades. | Média |
+|RF-16|**Modo de Estudo Personalizado**: O sistema deve permitir que os alunos revisem quizzes anteriores e recebam sugestões de novos quizzes com base em seu desempenho, focando nas áreas onde têm mais dificuldade. | Baixo |
 ### Requisitos não funcionais
 
 |ID    | Descrição                                                                                    |
@@ -197,7 +198,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RNF-07 | Compatibilidade: O sistema deve funcionar bem junto com outros programas que a instituição já usa.|
 |RNF-08 | Escalabilidade: O sistema deve ser capaz de crescer e acomodar mais usuários conforme necessário.|
 |RNF-09 | Usabilidade em dispositivos móveis: O sistema deve ser totalmente acessível e funcional em dispositivos móveis, como smartphones e tablets, garantindo uma boa experiência para os usuários.|
-
+|RNF-10 | Backup e Recuperação: O sistema deve realizar backups automáticos periódicos para evitar perda de dados e permitir a recuperação rápida em caso de falhas.
 ## Restrições
 
 O projeto está restrito aos itens apresentados na tabela a seguir.
