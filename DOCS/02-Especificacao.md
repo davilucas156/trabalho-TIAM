@@ -105,6 +105,17 @@ Este professor possui anos de experiência no ensino de conteúdos técnicos e v
 -**Necessidades**:
 Precisa de uma plataforma que facilite a criação e organização de atividades, além de um sistema simples para registrar notas e acompanhar o progresso de cada aluno. Ele também busca uma ferramenta que permita uma comunicação eficiente com os estudantes e a gestão de suas turmas, economizando tempo para focar no ensino.
 
+### 5 - Coordenadora Pedagógica: 
+
+-**Descrição**:
+A coordenar é responsável pelas atividades pedagógicas da escola, garantindo a qualidade do ensino e o desenvolvimento dos alunos. Ela atua no suporte aos professores, na organização do calendário escolar e na implementação de metodologias que tornem o aprendizado mais eficaz. Além disso, acompanha o desempenho dos estudantes e busca formas de engajá-los nas atividades acadêmicas. Seu dia a dia envolve reuniões com docentes, atendimento a pais e alunos, além de planejamento estratégico para melhorar os resultados da escola.
+
+-**Necessidades**:
+Uma plataforma que ajude a monitorar o desempenho dos alunos e identificar dificuldades de aprendizado.
+Ferramentas para apoiar os professores na criação de atividades interativas e avaliações.
+Relatórios detalhados sobre a evolução dos estudantes e turmas.
+Um sistema que facilite a comunicação entre professores, alunos e responsáveis.
+Recursos que incentivem a participação dos alunos e tornem o aprendizado mais dinâmico.
 
 ## Histórias de usuários
 
