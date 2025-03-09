@@ -59,54 +59,22 @@ Felipe é um professor experiente, com mais de 20 anos de carreira, que leciona 
 - **Necessidades**:
 Tornar as aulas mais dinâmicas e acessíveis, especialmente para alunos que têm dificuldades em Matemática. Quer aumentar a motivação dos alunos e a participação ativa nas aulas.
 
-
-// atualizar a partir daqui : //
-
-### 2 - Aluno:
-Jovem cursando graduação ou pós-graduação, tecnicamente habilidoso e acostumado a usar plataformas digitais para gerenciar atividades acadêmicas.
-
-- **Descrição**:  
-  Usa o sistema para acessar horários, material didático, notas, e comunicar-se com professores e colegas, além de acompanhar seu progresso acadêmico.
-
-- **Necessidades**:  
-  Precisa de uma plataforma centralizada e intuitiva para gerenciar informações do curso, acompanhar compromissos acadêmicos e facilitar a comunicação com a instituição e colegas.
-
-### 3 - Secretário:
-Profissional que lida com matrículas, registros acadêmicos e atendimento a
-alunos e professores.
-
-- **Descrição**:  
-  Gerencia documentação, organiza arquivos e atende consultas de
-alunos.
-
-- **Necessidades**:  
-  Precisa de um sistema que automatize matrículas, mantenha
-registros atualizados e simplifique a emissão de documentos,
-melhorando a eficiência e reduzindo erros.
-
-### 4 - Professor:
- Profissional com formação acadêmica, responsável por ministrar aulas,
-avaliar alunos e orientar atividades pedagógicas.
-
-- **Descrição**:  
-  Utiliza o sistema para registrar notas, acompanhar o desempenho
-dos alunos, acessar materiais didáticos e se comunicar com a
-administração e os alunos.
-- **Necessidades**:  
- Precisa de uma ferramenta que facilite a gestão de turmas, a
-organização de avaliações e a comunicação rápida com estudantes,
-otimizando o tempo dedicado ao ensino e à orientação.
-
 ### 5 - Professor: 
-
+Nome: Gustavo Tubarão <br>
+Idade: 77 anos <br>
+Profissão: Professor de Computação <br>
+Instituição de ensino: Puc Minas <br>
 -**Descrição**:
 Este professor possui anos de experiência no ensino de conteúdos técnicos e valoriza uma abordagem equilibrada entre metodologias tradicionais e inovações tecnológicas. Ele utiliza ferramentas digitais de forma moderada, buscando melhorar a gestão de suas turmas e a comunicação com os alunos.
 
 -**Necessidades**:
 Precisa de uma plataforma que facilite a criação e organização de atividades, além de um sistema simples para registrar notas e acompanhar o progresso de cada aluno. Ele também busca uma ferramenta que permita uma comunicação eficiente com os estudantes e a gestão de suas turmas, economizando tempo para focar no ensino.
 
-### 6 - Coordenadora Pedagógica: 
-
+### 6 - Coordenadora: 
+Nome: Caroline Pereira <br>
+Idade: 36 anos <br>
+Profissão: Corrdenardora Pedagógica <br>
+Instituição de ensino: Escola Estadual Padre Luiz Turkenburg
 -**Descrição**:
 A coordenar é responsável pelas atividades pedagógicas da escola, garantindo a qualidade do ensino e o desenvolvimento dos alunos. Ela atua no suporte aos professores, na organização do calendário escolar e na implementação de metodologias que tornem o aprendizado mais eficaz. Além disso, acompanha o desempenho dos estudantes e busca formas de engajá-los nas atividades acadêmicas. Seu dia a dia envolve reuniões com docentes, atendimento a pais e alunos, além de planejamento estratégico para melhorar os resultados da escola.
 
@@ -129,25 +97,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Professor | Gostaria de usar a gamificação para tornar a Matemática mais interessante, com desafios que permitam aos alunos competirem entre si de maneira saudável e divertida, ao mesmo tempo em que acompanham o progresso. | Eu possa motivar os alunos de uma forma melhorar. |
 | Coordenador | Quero monitorar o desempenho dos alunos e apoiar os professores na criação de atividades interativas. | Para identificar dificuldades de aprendizado e implementar estratégias pedagógicas mais eficazes. |
 | Eu como secretário	| Preciso de um sistema que automatize o processo de matrícula e gere documentos automaticamente.	| Para reduzir a carga de trabalho manual e aumentar a eficiência na gestão acadêmica. |
-
-<!--ATUALIZAR a partir daqui:-->
-
-| `PERSONA`     |                                   |  |
-| `PERSONA`              | Gerenciar turmas e disciplinas               | Alocar alunos e professores nas respectivas turmas e disciplinas de maneira eficiente.    |
-
-| `PERSONA`              | Realizar o registro de notas                        | Avaliar e informar os alunos sobre seu desempenho acadêmico.               |
-
-| `PERSONA`              | Realizar o controle de frequência                   | Marcar a presença de alunos de forma simples e rápida.                  |
-
-|`PERSONA`               | Postar o calendário de aulas, provas e eventos acadêmicos | Informar os alunos sobre o cronograma das atividades acadêmicas.   |
-
-| `PERSONA`              | Acessar o portal do professor                       | Emitir relatórios de notas, acompanhar alunos em dependência, e gerenciar disciplinas pelas quais sou responsável. |
-
-| `PERSONA`                  | Acessar os materiais de aula                        | Estudar e revisar conteúdos disponibilizados pelos professores a qualquer momento. |
-| `PERSONA`                  | Visualizar o calendário acadêmico                   | Acompanhar as datas de aulas, provas e eventos importantes para me organizar. |
-| `PERSONA`                  | Usar o portal do aluno                              | Consultar notas, horários de aula e histórico acadêmico de forma fácil. |
-| `PERSONA`     | Receber notificações sobre eventos importantes      | Informar-me sobre provas, aulas, atividades, e outras atualizações relevantes. |
-| `PERSONA`     | Acessar o portal principal                          | Obter informações sobre a instituição, bolsas, grades curriculares, professores, e currículo acadêmico. |
 
 ## Requisitos
 
