@@ -127,7 +127,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Aluno | Preciso de uma plataforma que disponibilize atividades interativas que prendam minha atenção. | Para que me motive e ajude a concentrar nas atividades acadêmicas. | 
 | Aluno | Ver meu progresso e posição no ranking da turma | Eu possa me motivar a melhorar. |
 | Professor | Gostaria de usar a gamificação para tornar a Matemática mais interessante, com desafios que permitam aos alunos competirem entre si de maneira saudável e divertida, ao mesmo tempo em que acompanham o progresso. | Eu possa motivar os alunos de uma forma melhorar. |
-
+| Coordenador | Quero monitorar o desempenho dos alunos e apoiar os professores na criação de atividades interativas. | Para identificar dificuldades de aprendizado e implementar estratégias pedagógicas mais eficazes. |
 | Eu como secretário	| Preciso de um sistema que automatize o processo de matrícula e gere documentos automaticamente.	| Para reduzir a carga de trabalho manual e aumentar a eficiência na gestão acadêmica. |
 
 <!--ATUALIZAR a partir daqui:-->
@@ -148,7 +148,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | `PERSONA`                  | Usar o portal do aluno                              | Consultar notas, horários de aula e histórico acadêmico de forma fácil. |
 | `PERSONA`     | Receber notificações sobre eventos importantes      | Informar-me sobre provas, aulas, atividades, e outras atualizações relevantes. |
 | `PERSONA`     | Acessar o portal principal                          | Obter informações sobre a instituição, bolsas, grades curriculares, professores, e currículo acadêmico. |
-| Coordenador | Quero monitorar o desempenho dos alunos e apoiar os professores na criação de atividades interativas. | Para identificar dificuldades de aprendizado e implementar estratégias pedagógicas mais eficazes. |
 
 ## Requisitos
 
@@ -168,25 +167,13 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RF-06|**Ranking e progresso dos alunos**: O sistema deve exibir rankings gerais e por turma, mostrando o progresso dos alunos. | Alta |
 |RF-07|**Estatísticas Gerais**: O sistema deve exibir um overview ao final do Quizz com número de acertos e erros. | Média |
 |RF-08|**Criação de salas**: O sistema deve permitir a criação de salas personalizadas por professores. | Média |
+|RF-09|**Relatórios de Desempenho**: O sistema deve gerar relatórios detalhados sobre o desempenho dos alunos nos quizzes, permitindo que professores e coordenadores acompanhem a evolução de cada estudante e identifiquem dificuldades. | Média |
+|RF-10|**Modo de Estudo Personalizado**: O sistema deve permitir que os alunos revisem quizzes anteriores e recebam sugestões de novos quizzes com base em seu desempenho, focando nas áreas onde têm mais dificuldade. | Baixo |
+|RF-11|**Notificações para novos quizzes e atualizações**: O sistema deve enviar notificações para os alunos e professores quando novos quizzes forem criados ou quando houver atualizações importantes sobre os quizzes existentes. |Média|
+|RF-12| **Feedback das atividades**: O sistema deve permitir que os professores forneçam feedback detalhado aos alunos após a conclusão de um quiz ou atividade. | Alta |
 
-// atualizar a partir daqui : // 
 
-|RF-03|**Gerenciamento de Turmas**: O sistema deve permitir que o secretário aloque alunos e professores em turmas e disciplinas. | Média      |
-|RF-04|**Registro de Notas**: O sistema deve permitir que professores registrem e alterem as notas dos alunos. | Alta       |
-|RF-05|**Controle de Frequência**: O sistema deve permitir que professores marquem a presença dos alunos nas aulas. | Alta       |
-|RF-06|**Postagem do Calendário**: O sistema deve permitir que o professor monte um calendário com as datas de aulas, provas e eventos acadêmicos. | Média      |
-|RF-07|**Portal do Professor**: O sistema deve permitir que professores acessem e emitam os relatórios de notas e de frequência dos alunos. | Alta       |
-|RF-08|**Postagem de Aulas**: O sistema deve permitir que professores enviem as aulas disponibilizadas pelos mesmos. | Alta       |
-|RF-09|**Visualização do Calendário**: O sistema deve permitir que alunos vejam o calendário com as datas de aulas, provas e eventos acadêmicos. | Alta       |
-|RF-10|**Portal do Aluno**: O sistema deve permitir que alunos vejam as suas notas, horários de aula e histórico escolar. | Alta       |
-|RF-11|**Envio de Notificações**: O sistema deve enviar notificações aos usuários sobre eventos, como provas e alterações nas aulas. | Alta       |
-|RF-12|**Portal Principal**: O sistema deve permitir que qualquer pessoa veja as informações sobre a instituição, bolsas, grades curriculares, professores e currículo acadêmico. | Baixa      |
-|RF-13|**Notificações para novos quizzes e atualizações**: O sistema deve enviar notificações para os alunos e professores quando novos quizzes forem criados ou quando houver atualizações importantes sobre os quizzes existentes. |Média|
-|RF-14| **Feedback das atividades**: O sistema deve permitir que os professores forneçam feedback detalhado aos alunos após a conclusão de um quiz ou atividade. | Alta |
-|RF-15|**Relatórios de Desempenho**: O sistema deve gerar relatórios detalhados sobre o desempenho dos alunos nos quizzes, permitindo que professores e coordenadores acompanhem a evolução de cada estudante e identifiquem dificuldades. | Média |
-|RF-16|**Modo de Estudo Personalizado**: O sistema deve permitir que os alunos revisem quizzes anteriores e recebam sugestões de novos quizzes com base em seu desempenho, focando nas áreas onde têm mais dificuldade. | Baixo |
 ### Requisitos não funcionais
-
 |ID    | Descrição                                                                                    |
 |------|----------------------------------------------------------------------------------------------|
 |RNF-01 | Segurança: O sistema deve proteger os dados dos usuários contra acessos não autorizados.|
@@ -199,6 +186,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RNF-08 | Escalabilidade: O sistema deve ser capaz de crescer e acomodar mais usuários conforme necessário.|
 |RNF-09 | Usabilidade em dispositivos móveis: O sistema deve ser totalmente acessível e funcional em dispositivos móveis, como smartphones e tablets, garantindo uma boa experiência para os usuários.|
 |RNF-10 | Backup e Recuperação: O sistema deve realizar backups automáticos periódicos para evitar perda de dados e permitir a recuperação rápida em caso de falhas.
+
 ## Restrições
 
 O projeto está restrito aos itens apresentados na tabela a seguir.
