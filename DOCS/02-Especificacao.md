@@ -85,6 +85,21 @@ Relatórios detalhados sobre a evolução dos estudantes e turmas.
 Um sistema que facilite a comunicação entre professores, alunos e responsáveis.
 Recursos que incentivem a participação dos alunos e tornem o aprendizado mais dinâmico.
 
+### 7 - Aluno Especial: 
+Nome: Rafael Mendes <br>
+Idade: 12 anos <br>
+Série: 7° ano do Ensino Fundamental <br>
+Instituição de ensino: Escola Estadual Padre Luiz Turkenburg
+- **Descrição**:
+Rafael é um aluno com Transtorno do Espectro Autista (TEA) que adora tecnologia e tem grande interesse por jogos e desafios interativos. Ele aprende melhor em um ambiente estruturado, com instruções claras e estímulos visuais organizados. Embora seja muito inteligente e curioso, às vezes ele tem dificuldade em interagir socialmente e se concentrar em atividades prolongadas ou que envolvam muitas distrações. Rafael se sente mais confortável quando pode seguir um ritmo próprio de aprendizado e quando recebe feedback imediato sobre seu desempenho. Ele gosta de resolver problemas lógicos e se engaja melhor em atividades que permitam explorar seu raciocínio de forma prática e visual.
+
+- **Necessidades**:
+Uma plataforma acessível e inclusiva, com design intuitivo e interface visual adaptável.
+Atividades gamificadas que respeitem seu ritmo de aprendizado e proporcionem desafios progressivos.
+Recursos que minimizem distrações e tornem a navegação mais fluida, como layouts simplificados e opções de personalização.
+Feedback imediato e reforço positivo para manter a motivação e o engajamento.
+Ferramentas que facilitem a comunicação entre professores, alunos e responsáveis para um acompanhamento mais próximo do seu desenvolvimento.
+
 ## Histórias de usuários
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
