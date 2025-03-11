@@ -36,12 +36,14 @@ O projeto segue a seguinte convenção para o nome de branches:
 
 Está é a divisão de papéis entre os membros do grupo, considerando que adotaremos a metodologia ágil SCRUM.
 
-- **Scrum Master**: Davi Lucas
-- **Product Owner**: Alessandro Gomes
+- **Scrum Master**: Davi Lucas do Carmo Nogueira
+- **Product Owner**: Alessandro Gomes Pereira
 - **Equipe de Desenvolvimento**:
-  - **Desenvolvedor Frontend**: Pedro
-  - **Desenvolvedor Backend**: Arthur
-  - **Responsável pelo SGBD**: Cleusa
+  - **Desenvolvedor Frontend**: Bernardo Azevedo Estrela
+  - **Desenvolvedor Frontend**: Gustavo Henrique Azeredo Vargas
+  - **Desenvolvedor Backend**: Matheus Henrique dos Santos Alvim
+  - **Desenvolvedor Backend**: Pedro Henrique Ferreira Gomes Martins
+  - **Responsável pelo SGBD**: Arthur Henrique Ribeiro Beiral
 
 ### 📚 Divisão de Tarefas
 
@@ -51,7 +53,11 @@ As tarefas do projeto são organizadas no Trello e acompanhadas durante as Sprin
 
 ### 🔧 Padrões de Código
 
-Não sei oq colocar
+Para garantir a qualidade e padronização do código, seguimos as seguintes diretrizes:
+
+ - Utilização do ESLint para padronizar o código.
+ - Adoção de Prettier para formatação automática do código.
+ - Nomeação de variáveis e funções no padrão camelCase.
 
 ---
 
