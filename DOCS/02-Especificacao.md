@@ -112,6 +112,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Professor | Gostaria de usar a gamificação para tornar a Matemática mais interessante, com desafios que permitam aos alunos competirem entre si de maneira saudável e divertida, ao mesmo tempo em que acompanham o progresso. | Eu possa motivar os alunos de uma forma melhorar. |
 | Coordenador | Quero monitorar o desempenho dos alunos e apoiar os professores na criação de atividades interativas. | Para identificar dificuldades de aprendizado e implementar estratégias pedagógicas mais eficazes. |
 | Eu como secretário	| Preciso de um sistema que automatize o processo de matrícula e gere documentos automaticamente.	| Para reduzir a carga de trabalho manual e aumentar a eficiência na gestão acadêmica. |
+| Eu como Aluno Especial	| Preciso de uma plataforma acessível, com atividades adaptáveis e interface intuitiva.	| Para que eu possa aprender no meu próprio ritmo, sem sobrecarga de informações e com suporte adequado às minhas necessidades. |
 
 ## Requisitos
 
