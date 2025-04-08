@@ -34,24 +34,24 @@ Visão geral da interação do usuário por meio das telas do sistema.
 Figma: https://www.figma.com/design/bT9XwGkdEZDRZD5wx5ov1G/Untitled?node-id=14-2&p=f&t=bcnLox1IbdCzbXxl-0 
 
 1- Login
-![alt text](DOCS/images/login.png)
+![alt text](images/login.png)
 
 2- Cadastro de professor
-![alt text](DOCS/images/cadastro-professor.png)
+![alt text](images/cadastro-professor.png)
 
 3- Cadastro de aluno
-![alt text](DOCS/images/cadastro-aluno.png)
+![alt text](images/cadastro-aluno.png)
 
 4- Home
-![alt text](DOCS/images/home.png)
+![alt text](images/home.png)
 
 5- Quizz
-![alt text](DOCS/images/quizz.png)
+![alt text](images/quizz.png)
 
 6- Resultado de um quizz
-![alt text](DOCS/images/resultados-quizz.png)
+![alt text](images/resultados-quizz.png)
 
 7- Ranking
-![alt text](DOCS/images/ranking.png)
+![alt text](images/ranking.png)
 
 > Apresente as principais interfaces da plataforma em sua versão final.
