@@ -1,0 +1,35 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .topBar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.75rem;
+  }
+
+  .icon {
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+  }
+}
+

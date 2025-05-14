@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 60px; /* ← valor default da sidebar */
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+
+/* se quiser que a margem mude dinamicamente com JS, pode usar classes extras */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .mainContent {
+    margin-left: 0;
+    padding-top: 60px;
+  }
+}
+
+

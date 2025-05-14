@@ -1,0 +1,77 @@
+.card {
+  flex: 0 0 250px;
+  height: 140px;
+  border-radius: 16px;
+  scroll-snap-align: start;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.teacher {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+.play {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  border: none;
+  border-radius: 50%;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.quizzes {
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 85vw;
+    height: 130px;
+    padding: 0.8rem;
+  }
+
+  .quizzes {
+    font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .teacher {
+    font-size: 0.7rem;
+  }
+
+  .play {
+    padding: 0.3rem;
+    font-size: 0.85rem;
+  }
+}
+

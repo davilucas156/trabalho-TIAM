@@ -1,0 +1,50 @@
+.footer {
+  background-color: #0b0c3c;
+  color: white;
+  padding: 1.5rem 2rem;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px; /* 🔥 Evita colunas largas demais */
+  margin: 0 auto;     /* 🔥 Centraliza */
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  min-width: 150px;
+  margin-right: 1rem;
+}
+
+.column p {
+  font-size: 0.75rem;
+  color: #ccc;
+  margin: 0.3rem 0;
+}
+
+.column p strong {
+  color: white;
+  font-weight: bold;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footerContent {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .column {
+    flex: 1 1 45%; /* 🔥 Mantém lado a lado até caber */
+    max-width: 45%;
+  }
+
+  .column p {
+    font-size: 0.7rem;
+    text-align: left;
+  }
+}

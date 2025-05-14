@@ -1,0 +1,32 @@
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem; /* 🔹 padding menor */
+  background-color: #e7f2ff;
+  border-radius: 0 8px 8px 0;
+  width: 100%;
+  max-width: 327px; /* 🔹 reduzido de 500px */
+  max-height: 420px; /* 🔹 alinhado com LoginForm */
+  box-sizing: border-box;
+}
+
+.image {
+  max-width: 90%; /* 🔹 ligeiramente menor */
+  height: auto;
+  margin-bottom: 1.5rem; /* 🔹 menos espaço */
+}
+
+.logoText {
+  font-size: 1.6rem; /* 🔹 de 2rem para 1.6rem */
+  color: #3f00d8;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .logoContainer {
+    display: none; /* ou "display: flex" com ilustração pequena acima */
+  }
+}
+
+

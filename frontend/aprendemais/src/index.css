@@ -1,0 +1,46 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px; /* 🔹 Escala mais sutil para todos os textos */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.appLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0; /* 🔹 dá espaço e evita que fique muito colado nas bordas */
+  gap: 0; /* 🔹 separa login e ilustração suavemente */
+}
+
+/* 🔧 Ajuste global para que tudo tenha padding e border sob controle */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .appLayout {
+    height: auto;
+  }
+}
+
