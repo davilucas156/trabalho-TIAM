@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Form",
+    "\\src\\components\\LoginForm",
+    "\\src\\pages",
+    "\\src\\pages\\Aluno",
+    "\\src\\pages\\Aluno\\Cadastro",
+    "\\src\\pages\\Aluno\\Login"
+  ],
+  "SelectedNode": "\\src\\components\\Form\\CadastroForm.jsx",
+  "PreviewInSolutionExplorer": false
+}

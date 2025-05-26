@@ -13,8 +13,8 @@ export default function Login() {
   };
 
   return (
-    <div className="appLayout">
-      <div className="mainContainer">
+      <div className={styles.appLayout}>
+          <div className={styles.mainContainer}>
         <LoginForm onSubmit={handleLogin} />
         <LogoSection />
       </div>
