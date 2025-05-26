@@ -2,7 +2,7 @@ import styles from './LoginForm.module.css';
 import userIcon from '../../assets/user.png';
 import eyeIcon from '../../assets/password.png';
 import Button from '../Button/Button';
-import { useNavigate } from 'react-router-dom'; // ← IMPORTANTE
+import { useNavigate, Link } from 'react-router-dom'; // ← IMPORTANTE
 
 export default function LoginForm() {
   const navigate = useNavigate(); // ← HOOK DO REACT ROUTER
@@ -29,7 +29,7 @@ export default function LoginForm() {
       </Button>
 
       <p className={styles.registerText}>
-        Novo por aqui? <a href="#">Cadastra-se</a>
+              Novo por aqui? <Link to="/cadastro">Cadastrar-se</Link>
       </p>
     </div>
   );
