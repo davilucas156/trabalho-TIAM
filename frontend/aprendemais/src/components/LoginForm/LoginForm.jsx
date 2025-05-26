@@ -1,36 +1,49 @@
+import { useState } from 'react';
+import { User, Lock, Eye, EyeOff } from 'lucide-react';
 import styles from './LoginForm.module.css';
-import userIcon from '../../assets/user.png';
-import eyeIcon from '../../assets/password.png';
-import Button from '../Button/Button';
-import { useNavigate, Link } from 'react-router-dom'; // ← IMPORTANTE
+import { useNavigate, Link } from 'react-router-dom';
 
 export default function LoginForm() {
-  const navigate = useNavigate(); // ← HOOK DO REACT ROUTER
+    const navigate = useNavigate();
+    const [showPassword, setShowPassword] = useState(false);
 
-  const handleLogin = () => {
-    // Aqui você pode validar inputs antes, se quiser
-    navigate('/home'); // ← REDIRECIONA
-  };
+    const handleLogin = () => {
+        navigate('/home');
+    };
 
-  return (
-    <div className={styles.loginContainer}>
-      <h1 className={styles.title}>Login</h1>
-      <div className={styles.inputGroup}>
-        <input type="text" placeholder="Usuário" />
-        <img src={userIcon} alt="User Icon" />
-      </div>
-      <div className={styles.inputGroup}>
-        <input type="password" placeholder="Senha" />
-        <img src={eyeIcon} alt="Eye Icon" />
-      </div>
+    const togglePasswordVisibility = () => {
+        setShowPassword(!showPassword);
+    };
 
-      <Button onClick={handleLogin} className={styles.loginButton}>
-        ENTRAR
-      </Button>
+    return (
+        <div className={styles.loginContainer}>
+            <h2 className={styles.title}>Login</h2>
 
-      <p className={styles.registerText}>
-              Novo por aqui? <Link to="/cadastro">Cadastrar-se</Link>
-      </p>
-    </div>
-  );
+            <div className={styles.inputGroup}>
+                <User className={styles.icon} />
+                <input type="text" placeholder="Usuário" />
+            </div>
+
+            <div className={styles.inputGroup}>
+                <Lock className={styles.icon} />
+                <input type={showPassword ? 'text' : 'password'} placeholder="Senha" />
+                <button
+                    type="button"
+                    onClick={togglePasswordVisibility}
+                    className={styles.eyeButton}
+                    aria-label="Toggle password visibility"
+                >
+                    {showPassword ? <EyeOff /> : <Eye />}
+                </button>
+            </div>
+
+            <button onClick={handleLogin} className={styles.loginButton}>
+                ENTRAR
+            </button>
+
+            <p className={styles.registerText}>
+                Novo por aqui? <Link to="/cadastro">Cadastrar-se</Link>
+            </p>
+        </div>
+    );
 }
