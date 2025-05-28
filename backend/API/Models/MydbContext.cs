@@ -146,6 +146,14 @@ public partial class MydbContext : DbContext
                 .HasMaxLength(45)
                 .IsUnicode(false)
                 .HasColumnName("TITULO");
+
+            entity.Property(e => e.Id_criador).HasColumnName("ID_CRIADOR");
+
+            entity.HasOne(e => e.UsuarioCriador)
+                .WithMany(u => u.QuizzesCriados) 
+                .HasForeignKey(e => e.Id_criador)
+                .HasConstraintName("FK_QUIZZES_USUARIOS") 
+                .OnDelete(DeleteBehavior.Cascade);
         });
 
         modelBuilder.Entity<Resposta>(entity =>

@@ -9,8 +9,9 @@ public partial class Quiz
 
     public string Titulo { get; set; } = null!;
 
-    public DateTime? DatCriacao { get; set; }
-
+    public int Id_criador { get; set; }
+    public DateTime DatCriacao { get; set; }
+    public Usuario UsuarioCriador { get; set; }
     public virtual ICollection<Disciplina> Disciplinas { get; set; } = new List<Disciplina>();
 
     public virtual ICollection<Nota> Nota { get; set; } = new List<Nota>();

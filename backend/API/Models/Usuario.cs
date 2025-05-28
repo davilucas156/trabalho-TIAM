@@ -18,6 +18,7 @@ public partial class Usuario
     public virtual ICollection<Nota> Nota { get; set; } = new List<Nota>();
 
     public virtual ICollection<Resposta> Resposta { get; set; } = new List<Resposta>();
+    public List<Quiz> QuizzesCriados { get; set; }
 
     public virtual ICollection<Turma> Turmas { get; set; } = new List<Turma>();
 }

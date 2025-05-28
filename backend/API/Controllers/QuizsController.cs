@@ -42,6 +42,19 @@ namespace ApiQUIZZ.Controllers
             return quiz;
         }
 
+        [HttpGet("criador/{id}")]
+
+        public async Task<ActionResult<Quiz>> GetQuizzesPorCriador(int id)
+        {
+            var quizzes = await _context.Quizzes
+                            .Where(q => q.Id_criador == id)
+                            .ToListAsync();
+           if (quizzes == null || quizzes.Count == 0)
+                return NotFound();
+
+            return Ok(quizzes);
+        }
+
         // PUT: api/Quizs/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -98,7 +111,8 @@ namespace ApiQUIZZ.Controllers
                 var quiz = new Quiz
                 {
                     Titulo = dto.Titulo,
-                    DatCriacao = dto.Data_criacao
+                    DatCriacao = dto.Data_criacao,
+                    Id_criador = dto.Id_criador,
                 };
 
                 _context.Quizzes.Add(quiz);
