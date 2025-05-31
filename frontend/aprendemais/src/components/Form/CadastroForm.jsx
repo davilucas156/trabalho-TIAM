@@ -1,16 +1,19 @@
 import { useState } from 'react';
 import { Eye, EyeOff, User, Mail, Lock, ChevronDown } from 'lucide-react';
 import styles from './CadastroForm.module.css';
+import { useNavigate } from 'react-router-dom';
 
-export default function CadastroForm({ onSubmit }) {
+export default function CadastroForm() {
     const [formData, setFormData] = useState({
         nome: '',
         email: '',
         senha: '',
-        tipo: 'Usuário'
+        tipo: 'Professor'
     });
 
     const [showPassword, setShowPassword] = useState(false);
+    const [message, setMessage] = useState('');
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         setFormData({
@@ -23,9 +26,29 @@ export default function CadastroForm({ onSubmit }) {
         setShowPassword(!showPassword);
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        onSubmit(formData);
+        setMessage('');
+
+        try {
+            const response = await fetch('https://locahlhost:5000/api/Usuarios', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                setMessage('Cadastro realizado com sucesso!');
+                setTimeout(() => navigate('/'), 1500);  // Redireciona após 1.5s para a tela de login
+            } else {
+                const errorText = await response.text();
+                setMessage(`Erro: ${errorText || 'Não foi possível realizar o cadastro.'}`);
+            }
+        } catch (error) {
+            setMessage('Erro de conexão com o servidor.');
+        }
     };
 
     return (
@@ -88,6 +111,8 @@ export default function CadastroForm({ onSubmit }) {
                     <option value="Aluno">Aluno</option>
                 </select>
             </div>
+
+            {message && <p style={{ marginTop: '10px', color: message.startsWith('Erro') ? 'red' : 'green' }}>{message}</p>}
 
             <button type="submit" className={styles.submitButton}>Cadastrar</button>
         </form>
