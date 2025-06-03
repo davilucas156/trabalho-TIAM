@@ -856,3 +856,6 @@ C:\Users\berna\OneDrive\Documentos\GitHub\trabalho-TIAM\backend\API\obj\Debug\ne
 C:\Users\berna\OneDrive\Documentos\GitHub\trabalho-TIAM\backend\API\obj\Debug\net8.0\ApiQUIZZ.pdb
 C:\Users\berna\OneDrive\Documentos\GitHub\trabalho-TIAM\backend\API\obj\Debug\net8.0\ApiQUIZZ.genruntimeconfig.cache
 C:\Users\berna\OneDrive\Documentos\GitHub\trabalho-TIAM\backend\API\obj\Debug\net8.0\ref\ApiQUIZZ.dll
+C:\Users\Alessandro\Documents\Faculdade\ADS\trabalho-TIAM\backend\API\obj\Debug\net8.0\ApiQUIZZ.dll
+C:\Users\Alessandro\Documents\Faculdade\ADS\trabalho-TIAM\backend\API\obj\Debug\net8.0\refint\ApiQUIZZ.dll
+C:\Users\Alessandro\Documents\Faculdade\ADS\trabalho-TIAM\backend\API\obj\Debug\net8.0\ApiQUIZZ.pdb

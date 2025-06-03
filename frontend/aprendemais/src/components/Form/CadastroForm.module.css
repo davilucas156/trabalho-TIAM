@@ -1,33 +1,88 @@
 .registerForm {
     background-color: #1c0f74;
-    color: white;
+    color: #fff;
     padding: 1.5rem;
-    border-radius: 8px 0 0 8px;
+    border-radius: 8px;
     width: 100%;
-    max-width: 300px; 
+    max-width: 300px;
     min-height: 320px;
-    max-height: 420px; 
+    max-height: 420px;
     box-sizing: border-box;
     margin: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-    .registerForm input,
-    .registerForm select {
-        padding: 8px;
-        font-size: 1rem;
+
+    .registerForm h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: #ffcc00; 
+        text-align: center;
     }
 
-    .registerForm button {
-        padding: 10px;
-        font-size: 1rem;
-        background-color: black;
-        color: white;
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 8px;
+    gap: 8px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: border-color 0.3s ease;
+}
+
+    .inputGroup:hover {
+        border-color: #ffcc00;
+    }
+
+    .inputGroup input,
+    .inputGroup select {
+        background: transparent;
         border: none;
-        cursor: pointer;
+        outline: none;
+        color: white;
+        width: 100%;
+        font-size: 1rem;
     }
 
+    .inputGroup select {
+        appearance: none;
+    }
 
+.icon {
+    color: #ffcc00; 
+    width: 20px;
+    height: 20px;
+}
+
+.eyeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffcc00;
+    position: absolute;
+    right: 10px;
+}
+
+
+.submitButton {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #ffcc00; 
+    color: #1c0f74;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    .submitButton:hover {
+        background-color: #e6b800; 
+    }

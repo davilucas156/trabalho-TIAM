@@ -1,13 +1,19 @@
 import { useState } from 'react';
+import { Eye, EyeOff, User, Mail, Lock, ChevronDown } from 'lucide-react';
 import styles from './CadastroForm.module.css';
+import { useNavigate } from 'react-router-dom';
 
-export default function CadastroForm({ onSubmit }) {
+export default function CadastroForm() {
     const [formData, setFormData] = useState({
         nome: '',
         email: '',
         senha: '',
-        tipo: 'Usuário'
+        tipo: 'Professor'
     });
+
+    const [showPassword, setShowPassword] = useState(false);
+    const [message, setMessage] = useState('');
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         setFormData({
@@ -16,53 +22,99 @@ export default function CadastroForm({ onSubmit }) {
         });
     };
 
-    const handleSubmit = (e) => {
+    const togglePasswordVisibility = () => {
+        setShowPassword(!showPassword);
+    };
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        onSubmit(formData);
+        setMessage('');
+
+        try {
+            const response = await fetch('https://locahlhost:5000/api/Usuarios', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                setMessage('Cadastro realizado com sucesso!');
+                setTimeout(() => navigate('/'), 1500);  // Redireciona após 1.5s para a tela de login
+            } else {
+                const errorText = await response.text();
+                setMessage(`Erro: ${errorText || 'Não foi possível realizar o cadastro.'}`);
+            }
+        } catch (error) {
+            setMessage('Erro de conexão com o servidor.');
+        }
     };
 
     return (
         <form className={styles.registerForm} onSubmit={handleSubmit}>
             <h2>Cadastro</h2>
 
-            <input
-                type="text"
-                name="nome"
-                placeholder="Nome"
-                value={formData.nome}
-                onChange={handleChange}
-                required
-            />
+            <div className={styles.inputGroup}>
+                <User className={styles.icon} />
+                <input
+                    type="text"
+                    name="nome"
+                    placeholder="Nome"
+                    value={formData.nome}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
 
-            <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-            />
+            <div className={styles.inputGroup}>
+                <Mail className={styles.icon} />
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
 
-            <input
-                type="password"
-                name="senha"
-                placeholder="Senha"
-                value={formData.senha}
-                onChange={handleChange}
-                required
-            />
+            <div className={styles.inputGroup}>
+                <Lock className={styles.icon} />
+                <input
+                    type={showPassword ? "text" : "password"}
+                    name="senha"
+                    placeholder="Senha"
+                    value={formData.senha}
+                    onChange={handleChange}
+                    required
+                />
+                <button
+                    type="button"
+                    onClick={togglePasswordVisibility}
+                    className={styles.eyeButton}
+                    aria-label="Toggle password visibility"
+                >
+                    {showPassword ? <EyeOff /> : <Eye />}
+                </button>
+            </div>
 
-            <select
-                name="tipo"
-                value={formData.tipo}
-                onChange={handleChange}
-                required
-            >
-                <option value="Professor">Professor</option>
-                <option value="Aluno">Aluno</option>
-            </select>
+            <div className={styles.inputGroup}>
+                <ChevronDown className={styles.icon} />
+                <select
+                    name="tipo"
+                    value={formData.tipo}
+                    onChange={handleChange}
+                    required
+                >
+                    <option value="Professor">Professor</option>
+                    <option value="Aluno">Aluno</option>
+                </select>
+            </div>
 
-            <button type="submit">Cadastrar</button>
+            {message && <p style={{ marginTop: '10px', color: message.startsWith('Erro') ? 'red' : 'green' }}>{message}</p>}
+
+            <button type="submit" className={styles.submitButton}>Cadastrar</button>
         </form>
     );
 }
