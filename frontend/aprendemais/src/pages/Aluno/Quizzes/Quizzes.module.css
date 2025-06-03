@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 60px; /* ← valor default da sidebar */
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.quizzes {
+  display: flex;
+}
+
+.quizList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.quizCard {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.quizCard h3 {
+  margin-top: 0;
+}
+
+.quizCard button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CB9E7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.title{
+  margin-left: 1rem;
+
+}
+/* se quiser que a margem mude dinamicamente com JS, pode usar classes extras */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+}

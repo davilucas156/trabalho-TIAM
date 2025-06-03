@@ -1,0 +1,159 @@
+.home {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 60px; /* ← valor default da sidebar */
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8fc;
+  overflow-y: auto;
+}
+
+.quizContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  background-color: #2d0066;
+  color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.questionCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  border-color: #4cb9e7;
+}
+
+.selected {
+  border-color: #4cb9e7;
+  background-color: #e6f4fb;
+}
+
+.letter {
+  background-color: #e4dbfa;
+  color: #2d0066;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.altText {
+  flex: 1;
+}
+
+.altIcon {
+  margin-left: 1rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.submitButton {
+  background-color: #4c3cc3;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resultadoCard {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.certo {
+  background-color: #e7f9ef;
+  border-color: #31b842;
+}
+
+.errado {
+  background-color: #fdecec;
+  border-color: #e53e3e;
+}
+.resultadoTop {
+  background-color: #e0f3e6;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 6px solid #2e7d32;
+  border-radius: 10px;
+  color: #2e7d32;
+}
+
+.explicacao {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f4f7fc;
+  border-left: 4px solid #4cb9e7;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+
+
+/* se quiser que a margem mude dinamicamente com JS, pode usar classes extras */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+}
+

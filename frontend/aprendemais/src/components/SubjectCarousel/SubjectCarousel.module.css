@@ -1,28 +1,49 @@
 .wrapper {
-  padding: 1rem;
-  overflow: hidden;
+  margin-top: 2rem;
+  padding: 0 1rem;
 }
 
 .title {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
   margin-bottom: 1rem;
-  font-weight: bold;
 }
 
 .carousel {
+  padding-bottom: 1rem;
+}
+.carousel-item-spacing {
+  padding-right: 1rem;
+}
+
+.carousel-container {
+  padding-left: 0.5rem;
+}
+.carousel-item-spacing {
+  padding-right: 1.5rem;
+}
+
+.carousel-container {
+  padding-left: 0.5rem;
+}
+
+.wrapper {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.carouselItem {
+  padding-right: 1rem;
+}
+
+.carouselContainer {
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 1rem;
-  padding-bottom: 0.5rem;
-  scroll-padding-left: 1rem;
-}
-
-.carousel::-webkit-scrollbar {
-  height: 6px;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-  background-color: #ccc;
-  border-radius: 3px;
+  align-items: stretch;
 }

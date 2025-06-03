@@ -1,0 +1,99 @@
+.page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* isso é OK */
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9faff;
+  overflow-y: auto; /* ✅ ESSENCIAL */
+   margin-left: 60px; /* ← valor default da sidebar */
+}
+
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.titulo {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.inputPergunta {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 1rem 0;
+}
+
+.alternativas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.altRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inputAlt {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.explicacao {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  background-color: #f1f5f9;
+  border-radius: 6px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.addBtn {
+  background-color: #4cb9e7;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.saveBtn {
+  background-color: #4c3cc3;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}

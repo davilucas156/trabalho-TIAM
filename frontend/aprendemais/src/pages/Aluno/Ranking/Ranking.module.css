@@ -1,0 +1,62 @@
+.destacado {
+  background-color: #e8f0fe;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.home {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 60px; /* ← valor default da sidebar */
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+.rankingContainer {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 4rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.rankingList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rankingItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+}
+
+.posicao {
+  font-weight: bold;
+  color: #4c3cc3;
+}
+
+.nome {
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.pontuacao {
+  font-weight: bold;
+}
+
+
+
+
+/* se quiser que a margem mude dinamicamente com JS, pode usar classes extras */
+@media (max-width: 768px) {
+  .home {
+
+    flex-direction: column;
+  }
+}

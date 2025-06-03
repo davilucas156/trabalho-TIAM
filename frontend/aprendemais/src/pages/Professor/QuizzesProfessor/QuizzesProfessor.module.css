@@ -1,0 +1,84 @@
+.home {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 60px; /* ← valor default da sidebar */
+  flex: 1;
+  transition: margin-left 0.3s ease;
+  
+}
+
+.title {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.quizList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.quizCard {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.2s ease;
+}
+
+.quizCard:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.quizCard h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #2d0066;
+}
+
+.quizCard p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.quizCard button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CB9E7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.3s;
+}
+
+.quizCard button:hover {
+  background-color: #31a5d4;
+}
+
+@media (max-width: 768px) {
+  .quizzes {
+    flex-direction: column;
+  }
+
+  .mainContent {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .quizList {
+    margin-left: 0;
+  }
+}
