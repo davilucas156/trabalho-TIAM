@@ -55,21 +55,21 @@ namespace ApiQUIZZ.Controllers
             return Ok(quizzes);
         }
 
-        /*[HttpGet("disciplina/{id}")]
+        [HttpGet("disciplina/{id}")]
         public async Task<ActionResult<Quiz>> GetQuizzesPorDisciplina(int id)
         {
             var quizzes = await _context.Quizzes
-                            .Where(q => q.Id == id)
+                            .Where(q => q.Id_disciplina == id)
                             .ToListAsync();
             if (quizzes == null || quizzes.Count == 0)
                 return NotFound();
 
             return Ok(quizzes);
-    }*/
+        }
 
-    // PUT: api/Quizs/5
-    // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-    [HttpPut("{id}")]
+        // PUT: api/Quizs/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
     public async Task<IActionResult> PutQuiz(int id, Quiz quiz)
     {
         if (id != quiz.IdQuizzes)
