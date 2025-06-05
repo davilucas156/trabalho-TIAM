@@ -375,6 +375,54 @@
         }
       }
     },
+    "/api/Login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioLogin"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioLogin"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioLogin"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Notas": {
       "get": {
         "tags": [
@@ -790,41 +838,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Quiz"
+                "$ref": "#/components/schemas/QuizDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Quiz"
+                "$ref": "#/components/schemas/QuizDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Quiz"
+                "$ref": "#/components/schemas/QuizDTO"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Quiz"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Quiz"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Quiz"
-                }
-              }
-            }
+            "description": "Success"
           }
         }
       }
@@ -926,6 +957,46 @@
         "responses": {
           "200": {
             "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Quizs/criador/{id}": {
+      "get": {
+        "tags": [
+          "Quizs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quiz"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quiz"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quiz"
+                }
+              }
+            }
           }
         }
       }
@@ -1484,6 +1555,38 @@
           }
         }
       }
+    },
+    "/{idUsuario}/{idTurma}": {
+      "delete": {
+        "tags": [
+          "UsuarioTurma"
+        ],
+        "parameters": [
+          {
+            "name": "idUsuario",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "idTurma",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -1515,6 +1618,19 @@
               "$ref": "#/components/schemas/Resposta"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AlternativaDTO": {
+        "type": "object",
+        "properties": {
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "correto": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -1627,6 +1743,35 @@
         },
         "additionalProperties": false
       },
+      "PerguntasDTO": {
+        "type": "object",
+        "properties": {
+          "enunciado": {
+            "type": "string",
+            "nullable": true
+          },
+          "img": {
+            "type": "string",
+            "nullable": true
+          },
+          "pontos": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "alternativas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AlternativaDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Quiz": {
         "type": "object",
         "properties": {
@@ -1638,10 +1783,16 @@
             "type": "string",
             "nullable": true
           },
+          "id_criador": {
+            "type": "integer",
+            "format": "int32"
+          },
           "datCriacao": {
             "type": "string",
-            "format": "date-time",
-            "nullable": true
+            "format": "date-time"
+          },
+          "usuarioCriador": {
+            "$ref": "#/components/schemas/Usuario"
           },
           "disciplinas": {
             "type": "array",
@@ -1661,6 +1812,35 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Pergunta"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuizDTO": {
+        "type": "object",
+        "properties": {
+          "id_Disciplina": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_criador": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "data_criacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "perguntas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PerguntasDTO"
             },
             "nullable": true
           }
@@ -1709,10 +1889,6 @@
             "type": "integer",
             "format": "int32"
           },
-          "idUsuario": {
-            "type": "integer",
-            "format": "int32"
-          },
           "nome": {
             "type": "string",
             "nullable": true
@@ -1734,8 +1910,12 @@
             },
             "nullable": true
           },
-          "idUsuarioNavigation": {
-            "$ref": "#/components/schemas/Usuario"
+          "usuarioTurmas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UsuarioTurma"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1770,6 +1950,13 @@
             },
             "nullable": true
           },
+          "usuarioTurmas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UsuarioTurma"
+            },
+            "nullable": true
+          },
           "resposta": {
             "type": "array",
             "items": {
@@ -1777,12 +1964,46 @@
             },
             "nullable": true
           },
-          "turmas": {
+          "quizzesCriados": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Turma"
+              "$ref": "#/components/schemas/Quiz"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuarioLogin": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "senha": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuarioTurma": {
+        "type": "object",
+        "properties": {
+          "idUsuario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idTurma": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usuario": {
+            "$ref": "#/components/schemas/Usuario"
+          },
+          "turma": {
+            "$ref": "#/components/schemas/Turma"
           }
         },
         "additionalProperties": false

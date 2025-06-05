@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApiQUIZZ.DTO;
 using ApiQUIZZ.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,14 +23,24 @@ namespace ApiQUIZZ.Controllers
 
         // GET: api/Usuarios
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
+        public async Task<ActionResult<IEnumerable<UsuarioDTO>>> GetUsuarios()
         {
-            return await _context.Usuarios.ToListAsync();
+            var usuarios = await _context.Usuarios
+                .Select(u => new UsuarioDTO
+                {
+                    Nome = u.Nome,
+                    Email = u.Email,
+                    Senha = u.Senha,
+                    Tipo = u.Tipo.FirstOrDefault()  // Pega o primeiro caractere
+                })
+                .ToListAsync();
+
+            return usuarios;
         }
 
         // GET: api/Usuarios/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        public async Task<ActionResult<UsuarioDTO>> GetUsuario(int id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
 
@@ -38,18 +49,32 @@ namespace ApiQUIZZ.Controllers
                 return NotFound();
             }
 
-            return usuario;
+            var usuarioDto = new UsuarioDTO
+            {
+                Nome = usuario.Nome,
+                Email = usuario.Email,
+                Senha = usuario.Senha,
+                Tipo = usuario.Tipo.FirstOrDefault()
+            };
+
+            return usuarioDto;
         }
 
         // PUT: api/Usuarios/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
+        public async Task<IActionResult> PutUsuario(int id, UsuarioDTO usuarioDto)
         {
-            if (id != usuario.IdUsuario)
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario == null)
             {
-                return BadRequest();
+                return NotFound();
             }
+
+            // Atualiza os dados
+            usuario.Nome = usuarioDto.Nome;
+            usuario.Email = usuarioDto.Email;
+            usuario.Senha = usuarioDto.Senha;
+            usuario.Tipo = usuarioDto.Tipo.ToString();
 
             _context.Entry(usuario).State = EntityState.Modified;
 
@@ -73,14 +98,21 @@ namespace ApiQUIZZ.Controllers
         }
 
         // POST: api/Usuarios
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
+        public async Task<ActionResult<UsuarioDTO>> PostUsuario(UsuarioDTO usuarioDto)
         {
+            var usuario = new Usuario
+            {
+                Nome = usuarioDto.Nome,
+                Email = usuarioDto.Email,
+                Senha = usuarioDto.Senha,
+                Tipo = usuarioDto.Tipo.ToString()
+            };
+
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUsuario", new { id = usuario.IdUsuario }, usuario);
+            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.IdUsuario }, usuarioDto);
         }
 
         // DELETE: api/Usuarios/5

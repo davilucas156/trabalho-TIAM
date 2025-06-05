@@ -49,53 +49,64 @@ namespace ApiQUIZZ.Controllers
             var quizzes = await _context.Quizzes
                             .Where(q => q.Id_criador == id)
                             .ToListAsync();
-           if (quizzes == null || quizzes.Count == 0)
+            if (quizzes == null || quizzes.Count == 0)
                 return NotFound();
 
             return Ok(quizzes);
         }
 
-        // PUT: api/Quizs/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutQuiz(int id, Quiz quiz)
+        /*[HttpGet("disciplina/{id}")]
+        public async Task<ActionResult<Quiz>> GetQuizzesPorDisciplina(int id)
         {
-            if (id != quiz.IdQuizzes)
-            {
-                return BadRequest();
-            }
+            var quizzes = await _context.Quizzes
+                            .Where(q => q.Id == id)
+                            .ToListAsync();
+            if (quizzes == null || quizzes.Count == 0)
+                return NotFound();
 
-            _context.Entry(quiz).State = EntityState.Modified;
+            return Ok(quizzes);
+    }*/
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!QuizExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+    // PUT: api/Quizs/5
+    // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+    [HttpPut("{id}")]
+    public async Task<IActionResult> PutQuiz(int id, Quiz quiz)
+    {
+        if (id != quiz.IdQuizzes)
+        {
+            return BadRequest();
         }
+
+        _context.Entry(quiz).State = EntityState.Modified;
+
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!QuizExists(id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
+        }
+        return NoContent();
+    }
 
         // POST: api/Quizs
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-       /* [HttpPost]
-        public async Task<ActionResult<Quiz>> PostQuiz(Quiz quiz)
-        {
-            _context.Quizzes.Add(quiz);
-            await _context.SaveChangesAsync();
+        /* [HttpPost]
+         public async Task<ActionResult<Quiz>> PostQuiz(Quiz quiz)
+         {
+             _context.Quizzes.Add(quiz);
+             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetQuiz", new { id = quiz.IdQuizzes }, quiz);
-        }*/
+             return CreatedAtAction("GetQuiz", new { id = quiz.IdQuizzes }, quiz);
+         }*/
 
         [HttpPost]
         public async Task<IActionResult> CriarQuizCompleto([FromBody] QuizDTO dto)
@@ -103,45 +114,45 @@ namespace ApiQUIZZ.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            using var transaction = await _context.Database.BeginTransactionAsync();
+            // Verifica se a disciplina informada existe
+            var disciplinaExiste = await _context.Disciplinas.AnyAsync(d => d.IdDisciplina == dto.Id_Disciplina);
+            if (!disciplinaExiste)
+                return BadRequest($"Disciplina com ID {dto.Id_Disciplina} não existe.");
 
+            // Verifica se o usuário criador existe
+            var usuarioExiste = await _context.Usuarios.AnyAsync(u => u.IdUsuario == dto.Id_criador);
+            if (!usuarioExiste)
+                return BadRequest($"Usuário com ID {dto.Id_criador} não existe.");
+
+            using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
-                
+                // Cria o quiz
                 var quiz = new Quiz
                 {
                     Titulo = dto.Titulo,
                     DatCriacao = dto.Data_criacao,
                     Id_criador = dto.Id_criador,
+                    Id_disciplina = dto.Id_Disciplina // <- Correção do erro!
                 };
 
                 _context.Quizzes.Add(quiz);
-                await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync(); // quiz.IdQuizzes é gerado aqui
 
-                
-                var disciplina = await _context.Disciplinas
-                    .FirstOrDefaultAsync(d => d.IdDisciplina == dto.Id_Disciplina);
-
-                if (disciplina == null)
-                    return NotFound($"Disciplina com ID {dto.Id_Disciplina} não encontrada.");
-
-                
-                _context.Disciplinas.Update(disciplina);
-
-                
+                // Adiciona perguntas e alternativas
                 foreach (var perguntaDto in dto.Perguntas)
                 {
                     var pergunta = new Pergunta
                     {
                         IdQuiz = quiz.IdQuizzes,
                         Enunciado = perguntaDto.Enunciado,
-                        Img = "",
+                        Img = perguntaDto.Img,
                         Pontos = perguntaDto.Pontos,
                         Tipo = perguntaDto.Tipo
                     };
 
                     _context.Perguntas.Add(pergunta);
-                    await _context.SaveChangesAsync(); 
+                    await _context.SaveChangesAsync(); // pergunta.IdPerg é gerado aqui
 
                     foreach (var altDto in perguntaDto.Alternativas)
                     {
@@ -153,11 +164,10 @@ namespace ApiQUIZZ.Controllers
                         };
 
                         _context.Alternativas.Add(alternativa);
-
                     }
                 }
 
-                await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync(); // Salva todas as alternativas
                 await transaction.CommitAsync();
 
                 return CreatedAtAction(nameof(CriarQuizCompleto), new { id = quiz.IdQuizzes }, new { id = quiz.IdQuizzes });
@@ -172,23 +182,23 @@ namespace ApiQUIZZ.Controllers
 
         // DELETE: api/Quizs/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteQuiz(int id)
+    public async Task<IActionResult> DeleteQuiz(int id)
+    {
+        var quiz = await _context.Quizzes.FindAsync(id);
+        if (quiz == null)
         {
-            var quiz = await _context.Quizzes.FindAsync(id);
-            if (quiz == null)
-            {
-                return NotFound();
-            }
-
-            _context.Quizzes.Remove(quiz);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return NotFound();
         }
 
-        private bool QuizExists(int id)
-        {
-            return _context.Quizzes.Any(e => e.IdQuizzes == id);
-        }
+        _context.Quizzes.Remove(quiz);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
     }
+
+    private bool QuizExists(int id)
+    {
+        return _context.Quizzes.Any(e => e.IdQuizzes == id);
+    }
+}
 }

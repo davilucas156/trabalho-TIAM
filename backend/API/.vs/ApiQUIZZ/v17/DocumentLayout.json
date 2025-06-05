@@ -1,53 +1,84 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\",
+  "WorkspaceRootPath": "C:\\Users\\alvim\\Desktop\\backend\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\migrations\\20250502184221_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:migrations\\20250502184221_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\quizscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\quizscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\quizscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\dto\\alternativadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:dto\\alternativadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\usuarioturmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\usuarioturmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\documentos\\github\\trabalho-tiam\\backend\\api\\controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvim\\Desktop\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\models\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\alvim\\desktop\\backend\\api\\controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,100 +89,218 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250502184221_mydb.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Migrations\\20250502184221_mydb.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250502184221_mydb.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Migrations\\20250502184221_mydb.cs",
-              "RelativeToolTip": "Migrations\\20250502184221_mydb.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "QuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\DTO\\QuizDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\QuizDTO.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\DTO\\QuizDTO.cs",
+              "RelativeToolTip": "DTO\\QuizDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:42:22.114Z",
+              "WhenOpened": "2025-06-05T00:31:35.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-02T18:23:46.028Z"
+              "DocumentIndex": 2,
+              "Title": "AlternativaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\DTO\\AlternativaDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AlternativaDTO.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\DTO\\AlternativaDTO.cs",
+              "RelativeToolTip": "DTO\\AlternativaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:31:14.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Disciplina.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Disciplina.cs",
+              "RelativeDocumentMoniker": "Models\\Disciplina.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Disciplina.cs",
+              "RelativeToolTip": "Models\\Disciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:22:39.199Z"
+              "WhenOpened": "2025-06-04T23:03:18.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RespostasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\RespostasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RespostasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\RespostasController.cs",
-              "RelativeToolTip": "Controllers\\RespostasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:07:15.6Z"
+              "WhenOpened": "2025-06-04T22:35:04.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T22:48:16.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA9wBQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:16:33.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250529010228_CreateUsuarioTurmaRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs",
+              "RelativeDocumentMoniker": "..\\..\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs",
+              "RelativeToolTip": "..\\..\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:02:28.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioTurmaController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\UsuarioTurmaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioTurmaController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\UsuarioTurmaController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioTurmaController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwBIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T00:42:26.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Turma.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Turma.cs",
+              "RelativeDocumentMoniker": "Models\\Turma.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Turma.cs",
+              "RelativeToolTip": "Models\\Turma.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T00:31:59.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizsController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\QuizsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuizsController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\QuizsController.cs",
+              "RelativeToolTip": "Controllers\\QuizsController.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAmwLQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T18:07:44.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "Models\\Quiz.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\Quiz.cs",
+              "RelativeToolTip": "Models\\Quiz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:59:45.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MydbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\MydbContext.cs",
+              "RelativeDocumentMoniker": "Models\\MydbContext.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Models\\MydbContext.cs",
+              "RelativeToolTip": "Models\\MydbContext.cs",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAQwBEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T00:36:19.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:08:13.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\DTO\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\DTO\\UsuarioDTO.cs",
+              "RelativeToolTip": "DTO\\UsuarioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:13:33.743Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:20:21.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "TurmasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\TurmasController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\TurmasController.cs",
               "RelativeDocumentMoniker": "Controllers\\TurmasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\TurmasController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\TurmasController.cs",
               "RelativeToolTip": "Controllers\\TurmasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T18:06:34.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:06:01.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MydbContext.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\MydbContext.cs",
-              "RelativeDocumentMoniker": "Models\\MydbContext.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\MydbContext.cs",
-              "RelativeToolTip": "Models\\MydbContext.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:36:19.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "AlternativasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\AlternativasController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlternativasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\AlternativasController.cs",
               "RelativeToolTip": "Controllers\\AlternativasController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,11 +308,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "NotasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\NotasController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\NotasController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\NotasController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\NotasController.cs",
               "RelativeToolTip": "Controllers\\NotasController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,23 +320,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuizsController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QuizsController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs",
-              "RelativeToolTip": "Controllers\\QuizsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:07:44.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "PerguntasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\PerguntasController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\PerguntasController.cs",
               "RelativeDocumentMoniker": "Controllers\\PerguntasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\PerguntasController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\PerguntasController.cs",
               "RelativeToolTip": "Controllers\\PerguntasController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,11 +332,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "DisciplinasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
+              "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\DisciplinasController.cs",
               "RelativeDocumentMoniker": "Controllers\\DisciplinasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
+              "ToolTip": "C:\\Users\\alvim\\Desktop\\backend\\API\\Controllers\\DisciplinasController.cs",
               "RelativeToolTip": "Controllers\\DisciplinasController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

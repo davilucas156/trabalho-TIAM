@@ -178,7 +178,7 @@ namespace ApiQUIZZ.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdQuizzes"));
 
-                    b.Property<DateTime>("DatCriacao")
+                    b.Property<DateTime?>("DatCriacao")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime")
                         .HasColumnName("DAT_CRIACAO")

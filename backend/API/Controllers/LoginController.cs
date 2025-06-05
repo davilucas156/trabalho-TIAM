@@ -1,6 +1,7 @@
 ﻿using ApiQUIZZ.DTO;
 using ApiQUIZZ.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiQUIZZ.Controllers
 {
@@ -18,15 +19,15 @@ namespace ApiQUIZZ.Controllers
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostResposta(UsuarioLogin user)
         {
+           
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == user.Email && u.Senha == user.Senha);
 
-            bool exist = _context.Usuarios.Any(u => u.Email == user.Email && u.Senha == user.Senha);
-
-            if (exist)
+            if (usuario != null)
             {
-                return Ok(200);
+                return Ok(usuario);
             }
             else {
-                return BadRequest("Usuário não encontrado");
+                return Unauthorized("Usuário não encontrado");
             }
         }
 

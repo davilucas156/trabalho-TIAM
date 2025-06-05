@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "ApiQUIZZ.Controllers.UsuarioTurmaController",
+    "Method": "RemoveUsuarioTurma",
+    "RelativePath": "{idUsuario}/{idTurma}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idTurma",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiQUIZZ.Controllers.AlternativasController",
     "Method": "GetAlternativas",
     "RelativePath": "api/Alternativas",
@@ -216,6 +237,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiQUIZZ.Controllers.LoginController",
+    "Method": "PostResposta",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ApiQUIZZ.DTO.UsuarioLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiQUIZZ.Models.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ApiQUIZZ.Controllers.NotasController",
@@ -457,29 +504,19 @@
   },
   {
     "ContainingType": "ApiQUIZZ.Controllers.QuizsController",
-    "Method": "PostQuiz",
+    "Method": "CriarQuizCompleto",
     "RelativePath": "api/Quizs",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "quiz",
-        "Type": "ApiQUIZZ.Models.Quiz",
+        "Name": "dto",
+        "Type": "ApiQUIZZ.DTO.QuizDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ApiQUIZZ.Models.Quiz",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ApiQUIZZ.Controllers.QuizsController",
@@ -543,6 +580,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiQUIZZ.Controllers.QuizsController",
+    "Method": "GetQuizzesPorCriador",
+    "RelativePath": "api/Quizs/criador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiQUIZZ.Models.Quiz",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ApiQUIZZ.Controllers.RespostasController",

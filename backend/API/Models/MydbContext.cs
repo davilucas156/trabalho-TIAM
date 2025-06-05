@@ -31,9 +31,34 @@ public partial class MydbContext : DbContext
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
+    public virtual DbSet<UsuarioTurma> UsuarioTurmas { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<UsuarioTurma>(entity =>
+        {
+            entity.HasKey(ut => new { ut.IdUsuario, ut.IdTurma })
+                .HasName("PK_USUARIO_TURMA");
+
+            entity.ToTable("USUARIO_TURMA");
+
+            entity.Property(ut => ut.IdUsuario).HasColumnName("ID_USUARIO");
+            entity.Property(ut => ut.IdTurma).HasColumnName("ID_TURMA");
+
+            entity.HasOne(ut => ut.Usuario)
+                .WithMany(u => u.UsuarioTurmas)
+                .HasForeignKey(ut => ut.IdUsuario)
+                .HasConstraintName("FK_USUARIO_TURMA_USUARIO")
+                .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(ut => ut.Turma)
+                .WithMany(t => t.UsuarioTurmas)
+                .HasForeignKey(ut => ut.IdTurma)
+                .HasConstraintName("FK_USUARIO_TURMA_TURMA")
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
         modelBuilder.Entity<Alternativa>(entity =>
         {
             entity.HasKey(e => e.IdAlt).HasName("PK__ALTERNAT__2A7C970019DD996E");
@@ -64,12 +89,7 @@ public partial class MydbContext : DbContext
                 .HasMaxLength(45)
                 .IsUnicode(false)
                 .HasColumnName("DESCRICAO");
-            entity.Property(e => e.IdQuizzes).HasColumnName("ID_QUIZZES");
             entity.Property(e => e.IdTurma).HasColumnName("ID_TURMA");
-
-            entity.HasOne(d => d.IdQuizzesNavigation).WithMany(p => p.Disciplinas)
-                .HasForeignKey(d => d.IdQuizzes)
-                .HasConstraintName("FK_DISCIPLINA_QUIZZES");
 
             entity.HasOne(d => d.IdTurmaNavigation).WithMany(p => p.Disciplinas)
                 .HasForeignKey(d => d.IdTurma)
@@ -148,6 +168,13 @@ public partial class MydbContext : DbContext
                 .HasColumnName("TITULO");
 
             entity.Property(e => e.Id_criador).HasColumnName("ID_CRIADOR");
+            entity.Property(e => e.Id_disciplina).HasColumnName("ID_DISCIPLINA");
+
+            entity.HasOne(e => e.Disciplina)
+               .WithMany(u => u.QuizzesDisciplina)
+               .HasForeignKey(e => e.Id_disciplina)
+               .HasConstraintName("FK_DISCIPLINA_QUIZZES")
+               .OnDelete(DeleteBehavior.Cascade);
 
             entity.HasOne(e => e.UsuarioCriador)
                 .WithMany(u => u.QuizzesCriados) 
@@ -196,16 +223,16 @@ public partial class MydbContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("DAT_CRIACAO");
-            entity.Property(e => e.IdUsuario).HasColumnName("ID_USUARIO");
             entity.Property(e => e.Img).HasColumnName("IMG");
             entity.Property(e => e.Nome)
                 .HasMaxLength(45)
                 .IsUnicode(false)
                 .HasColumnName("NOME");
-
-            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Turmas)
-                .HasForeignKey(d => d.IdUsuario)
-                .HasConstraintName("FK_TURMAS_USUARIO");
+            entity.HasMany(t => t.UsuarioTurmas)
+                  .WithOne(ut => ut.Turma)
+                  .HasForeignKey(ut => ut.IdTurma)
+                  .HasConstraintName("FK_USUARIO_TURMA_TURMA")
+                  .OnDelete(DeleteBehavior.Cascade);
         });
 
         modelBuilder.Entity<Usuario>(entity =>
@@ -234,6 +261,9 @@ public partial class MydbContext : DbContext
                 .IsUnicode(false)
                 .IsFixedLength()
                 .HasColumnName("TIPO");
+            entity.HasMany(u => u.UsuarioTurmas)
+            .WithOne(ut => ut.Usuario)
+            .HasForeignKey(ut => ut.IdUsuario);
         });
 
         OnModelCreatingPartial(modelBuilder);
