@@ -60,13 +60,13 @@ namespace ApiQUIZZ.Controllers
         public async Task<ActionResult<Quiz>> GetQuizzesPorDisciplina(int id)
         {
             var quizzes = await _context.Quizzes
-                            .Where(q => q.Id == id)
+                            .Where(q => q.Id_disciplina == id)
                             .ToListAsync();
             if (quizzes == null || quizzes.Count == 0)
                 return NotFound();
 
             return Ok(quizzes);
-    }*/
+        }
 
         // PUT: api/Quizs/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -115,7 +115,6 @@ namespace ApiQUIZZ.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-<<<<<<< Updated upstream
             // Verifica se a disciplina informada existe
             var disciplinaExiste = await _context.Disciplinas.AnyAsync(d => d.IdDisciplina == dto.Id_Disciplina);
             if (!disciplinaExiste)
@@ -130,11 +129,6 @@ namespace ApiQUIZZ.Controllers
             try
             {
                 // Cria o quiz
-=======
-            using var transaction = await _context.Database.BeginTransactionAsync();
-            try
-            {
->>>>>>> Stashed changes
                 var quiz = new Quiz
                 {
                     Titulo = dto.Titulo,
@@ -146,30 +140,20 @@ namespace ApiQUIZZ.Controllers
                 _context.Quizzes.Add(quiz);
                 await _context.SaveChangesAsync(); // quiz.IdQuizzes é gerado aqui
 
-<<<<<<< Updated upstream
                 // Adiciona perguntas e alternativas
-=======
->>>>>>> Stashed changes
                 foreach (var perguntaDto in dto.Perguntas)
                 {
                     var pergunta = new Pergunta
                     {
                         IdQuiz = quiz.IdQuizzes,
                         Enunciado = perguntaDto.Enunciado,
-<<<<<<< Updated upstream
                         Img = perguntaDto.Img,
-=======
->>>>>>> Stashed changes
                         Pontos = perguntaDto.Pontos,
                         Tipo = perguntaDto.Tipo,
                     };
 
                     _context.Perguntas.Add(pergunta);
-<<<<<<< Updated upstream
                     await _context.SaveChangesAsync(); // pergunta.IdPerg é gerado aqui
-=======
-                    await _context.SaveChangesAsync(); // pergunta.IdPerg gerado aqui
->>>>>>> Stashed changes
 
                     foreach (var altDto in perguntaDto.Alternativas)
                     {
@@ -184,11 +168,7 @@ namespace ApiQUIZZ.Controllers
                     }
                 }
 
-<<<<<<< Updated upstream
                 await _context.SaveChangesAsync(); // Salva todas as alternativas
-=======
-                await _context.SaveChangesAsync(); // salva todas as alternativas
->>>>>>> Stashed changes
                 await transaction.CommitAsync();
 
                 return CreatedAtAction(nameof(CriarQuizCompleto), new { id = quiz.IdQuizzes }, new { id = quiz.IdQuizzes });
