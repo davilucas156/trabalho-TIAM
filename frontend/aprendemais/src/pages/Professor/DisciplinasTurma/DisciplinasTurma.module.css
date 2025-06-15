@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 .home {
+=======
+.page {
+>>>>>>> Stashed changes
   display: flex;
 }
 
@@ -6,6 +10,7 @@
   margin-left: 60px; /* ← valor default da sidebar */
   flex: 1;
   transition: margin-left 0.3s ease;
+<<<<<<< Updated upstream
   
 }
 
@@ -81,4 +86,63 @@
   .quizList {
     margin-left: 0;
   }
+=======
+}
+@media (max-width: 768px) {
+  .page {
+    flex-direction: column;
+  }
+}
+
+.content {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.createButton {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.createButton:hover {
+  background-color: #2563eb;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background-color: #eef2ff;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(30, 64, 175, 0.3);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+>>>>>>> Stashed changes
 }

@@ -190,6 +190,55 @@
         }
       }
     },
+    "/api/Disciplinas/turma/{turmaId}": {
+      "get": {
+        "tags": [
+          "Disciplinas"
+        ],
+        "parameters": [
+          {
+            "name": "turmaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Disciplina"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Disciplina"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Disciplina"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Disciplinas": {
       "get": {
         "tags": [
@@ -235,17 +284,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Disciplina"
+                "$ref": "#/components/schemas/DisciplinaDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Disciplina"
+                "$ref": "#/components/schemas/DisciplinaDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Disciplina"
+                "$ref": "#/components/schemas/DisciplinaDTO"
               }
             }
           }
@@ -1384,7 +1433,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Usuario"
+                    "$ref": "#/components/schemas/UsuarioDTO"
                   }
                 }
               },
@@ -1392,7 +1441,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Usuario"
+                    "$ref": "#/components/schemas/UsuarioDTO"
                   }
                 }
               },
@@ -1400,7 +1449,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Usuario"
+                    "$ref": "#/components/schemas/UsuarioDTO"
                   }
                 }
               }
@@ -1416,17 +1465,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             }
           }
@@ -1437,17 +1486,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioDTO"
                 }
               }
             }
@@ -1477,17 +1526,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Usuario"
+                  "$ref": "#/components/schemas/UsuarioDTO"
                 }
               }
             }
@@ -1513,17 +1562,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             }
           }
@@ -1556,7 +1605,38 @@
         }
       }
     },
-    "/{idUsuario}/{idTurma}": {
+    "/api/UsuarioTurma": {
+      "post": {
+        "tags": [
+          "UsuarioTurma"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioTurma"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioTurma"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioTurma"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/UsuarioTurma/{idUsuario}/{idTurma}": {
       "delete": {
         "tags": [
           "UsuarioTurma"
@@ -1636,6 +1716,9 @@
         "additionalProperties": false
       },
       "Disciplina": {
+        "required": [
+          "descricao"
+        ],
         "type": "object",
         "properties": {
           "idDisciplina": {
@@ -1646,19 +1729,33 @@
             "type": "integer",
             "format": "int32"
           },
-          "idQuizzes": {
-            "type": "integer",
-            "format": "int32"
+          "descricao": {
+            "minLength": 1,
+            "type": "string"
           },
+          "idTurmaNavigation": {
+            "$ref": "#/components/schemas/Turma"
+          },
+          "quizzesDisciplina": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Quiz"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DisciplinaDTO": {
+        "type": "object",
+        "properties": {
           "descricao": {
             "type": "string",
             "nullable": true
           },
-          "idQuizzesNavigation": {
-            "$ref": "#/components/schemas/Quiz"
-          },
-          "idTurmaNavigation": {
-            "$ref": "#/components/schemas/Turma"
+          "idTurma": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1787,19 +1884,28 @@
             "type": "integer",
             "format": "int32"
           },
+<<<<<<< Updated upstream
+          "id_disciplina": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "datCriacao": {
+            "type": "string",
+            "format": "date-time"
+=======
           "datCriacao": {
             "type": "string",
             "format": "date-time"
           },
           "usuarioCriador": {
             "$ref": "#/components/schemas/Usuario"
+>>>>>>> Stashed changes
           },
-          "disciplinas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Disciplina"
-            },
-            "nullable": true
+          "usuarioCriador": {
+            "$ref": "#/components/schemas/Usuario"
+          },
+          "disciplina": {
+            "$ref": "#/components/schemas/Disciplina"
           },
           "nota": {
             "type": "array",
@@ -1965,6 +2071,16 @@
             "nullable": true
           },
           "quizzesCriados": {
+<<<<<<< Updated upstream
+=======
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Quiz"
+            },
+            "nullable": true
+          },
+          "turmas": {
+>>>>>>> Stashed changes
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Quiz"
@@ -1974,6 +2090,30 @@
         },
         "additionalProperties": false
       },
+<<<<<<< Updated upstream
+      "UsuarioDTO": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "type": "string"
+          },
+          "senha": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+=======
+>>>>>>> Stashed changes
       "UsuarioLogin": {
         "type": "object",
         "properties": {
@@ -1987,6 +2127,7 @@
           }
         },
         "additionalProperties": false
+<<<<<<< Updated upstream
       },
       "UsuarioTurma": {
         "type": "object",
@@ -2007,6 +2148,8 @@
           }
         },
         "additionalProperties": false
+=======
+>>>>>>> Stashed changes
       }
     }
   }

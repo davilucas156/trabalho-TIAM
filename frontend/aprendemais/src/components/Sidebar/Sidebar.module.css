@@ -14,6 +14,14 @@
   width: 60px;
 }
 
+.navItem.active {
+  background-color: #3a28b1;
+  border-radius: 4px;
+  padding: 0.25rem;
+  font-weight: bold;
+}
+
+
 .expanded {
   width: 200px;
 }

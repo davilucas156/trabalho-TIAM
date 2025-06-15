@@ -8175,11 +8175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\ApiQUIZZ.csproj",
+      "projectUniqueName": "C:\\Users\\berna\\OneDrive\\Área de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\ApiQUIZZ.csproj",
       "projectName": "ApiQUIZZ",
-      "projectPath": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\ApiQUIZZ.csproj",
+      "projectPath": "C:\\Users\\berna\\OneDrive\\Área de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\ApiQUIZZ.csproj",
       "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\trabalho-TIAM\\backend\\API\\obj\\",
+      "outputPath": "C:\\Users\\berna\\OneDrive\\Área de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,7 +1,11 @@
 ﻿using ApiQUIZZ.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 public partial class Quiz
 {
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int IdQuizzes { get; set; }
     public string Titulo { get; set; } = null!;
     public int Id_criador { get; set; }

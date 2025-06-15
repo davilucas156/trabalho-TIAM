@@ -1,26 +1,5 @@
 [
   {
-    "ContainingType": "ApiQUIZZ.Controllers.UsuarioTurmaController",
-    "Method": "RemoveUsuarioTurma",
-    "RelativePath": "{idUsuario}/{idTurma}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idUsuario",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "idTurma",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "ApiQUIZZ.Controllers.AlternativasController",
     "Method": "GetAlternativas",
     "RelativePath": "api/Alternativas",
@@ -139,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiQUIZZ.Models.Disciplina, ApiQUIZZ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Disciplina, ApiQUIZZ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -158,14 +137,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "disciplina",
-        "Type": "ApiQUIZZ.Models.Disciplina",
+        "Name": "dto",
+        "Type": "DisciplinaDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiQUIZZ.Models.Disciplina",
+        "Type": "Disciplina",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -191,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiQUIZZ.Models.Disciplina",
+        "Type": "Disciplina",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -216,7 +195,7 @@
       },
       {
         "Name": "disciplina",
-        "Type": "ApiQUIZZ.Models.Disciplina",
+        "Type": "Disciplina",
         "IsRequired": true
       }
     ],
@@ -239,6 +218,35 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< Updated upstream
+    "ContainingType": "ApiQUIZZ.Controllers.DisciplinasController",
+    "Method": "GetDisciplinasPorTurma",
+    "RelativePath": "api/Disciplinas/turma/{turmaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turmaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Disciplina, ApiQUIZZ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+=======
+>>>>>>> Stashed changes
     "ContainingType": "ApiQUIZZ.Controllers.LoginController",
     "Method": "PostResposta",
     "RelativePath": "api/Login",
@@ -492,7 +500,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiQUIZZ.Models.Quiz, ApiQUIZZ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Quiz, ApiQUIZZ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -534,7 +542,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiQUIZZ.Models.Quiz",
+        "Type": "Quiz",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -559,7 +567,7 @@
       },
       {
         "Name": "quiz",
-        "Type": "ApiQUIZZ.Models.Quiz",
+        "Type": "Quiz",
         "IsRequired": true
       }
     ],
@@ -597,7 +605,11 @@
     ],
     "ReturnTypes": [
       {
+<<<<<<< Updated upstream
+        "Type": "Quiz",
+=======
         "Type": "ApiQUIZZ.Models.Quiz",
+>>>>>>> Stashed changes
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -835,7 +847,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiQUIZZ.Models.Usuario, ApiQUIZZ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiQUIZZ.DTO.UsuarioDTO, ApiQUIZZ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -854,14 +866,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "ApiQUIZZ.Models.Usuario",
+        "Name": "usuarioDto",
+        "Type": "ApiQUIZZ.DTO.UsuarioDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiQUIZZ.Models.Usuario",
+        "Type": "ApiQUIZZ.DTO.UsuarioDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -887,7 +899,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiQUIZZ.Models.Usuario",
+        "Type": "ApiQUIZZ.DTO.UsuarioDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -911,8 +923,8 @@
         "IsRequired": true
       },
       {
-        "Name": "usuario",
-        "Type": "ApiQUIZZ.Models.Usuario",
+        "Name": "usuarioDto",
+        "Type": "ApiQUIZZ.DTO.UsuarioDTO",
         "IsRequired": true
       }
     ],
@@ -928,6 +940,43 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiQUIZZ.Controllers.UsuarioTurmaController",
+    "Method": "AddUsuarioTurma",
+    "RelativePath": "api/UsuarioTurma",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioTurma",
+        "Type": "ApiQUIZZ.Models.UsuarioTurma",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiQUIZZ.Controllers.UsuarioTurmaController",
+    "Method": "RemoveUsuarioTurma",
+    "RelativePath": "api/UsuarioTurma/{idUsuario}/{idTurma}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idTurma",
         "Type": "System.Int32",
         "IsRequired": true
       }

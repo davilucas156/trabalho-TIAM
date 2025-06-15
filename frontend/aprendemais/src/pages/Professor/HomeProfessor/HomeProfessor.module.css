@@ -8,6 +8,7 @@
   transition: margin-left 0.3s ease;
 }
 
+
 /* se quiser que a margem mude dinamicamente com JS, pode usar classes extras */
 @media (max-width: 768px) {
   .home {

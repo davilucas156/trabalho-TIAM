@@ -1,11 +1,18 @@
 ﻿using ApiQUIZZ.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 public partial class Disciplina
 {
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int IdDisciplina { get; set; }
-    public int IdTurma { get; set; }
-    public string Descricao { get; set; } = null!;
 
-    public virtual Turma IdTurmaNavigation { get; set; } = null!;
-    public List<Quiz> QuizzesDisciplina { get; set; } = new List<Quiz>();
+    [ForeignKey("IdTurma")]
+    public int IdTurma { get; set; }
+    [Required]
+    public string Descricao { get; set; }
+
+    public virtual Turma IdTurmaNavigation { get; set; }
+    public List<Quiz> QuizzesDisciplina { get; set; } = new();
 }

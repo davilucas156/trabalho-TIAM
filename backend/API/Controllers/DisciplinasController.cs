@@ -20,6 +20,19 @@ namespace ApiQUIZZ.Controllers
             _context = context;
         }
 
+
+        // GET: api/Disciplinas/turma/1
+        [HttpGet("turma/{turmaId}")]
+        public async Task<ActionResult<IEnumerable<Disciplina>>> GetDisciplinasPorTurma(int turmaId)
+        {
+            var disciplinas = await _context.Disciplinas
+                .Where(d => d.IdTurma == turmaId)
+                .ToListAsync();
+
+            return disciplinas;
+        }
+
+
         // GET: api/Disciplinas
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Disciplina>>> GetDisciplinas()
@@ -72,16 +85,21 @@ namespace ApiQUIZZ.Controllers
             return NoContent();
         }
 
-        // POST: api/Disciplinas
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Disciplina>> PostDisciplina(Disciplina disciplina)
+        public async Task<ActionResult<Disciplina>> PostDisciplina(DisciplinaDTO dto)
         {
+            var disciplina = new Disciplina
+            {
+                Descricao = dto.Descricao,
+                IdTurma = dto.IdTurma
+            };
+
             _context.Disciplinas.Add(disciplina);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetDisciplina", new { id = disciplina.IdDisciplina }, disciplina);
         }
+
 
         // DELETE: api/Disciplinas/5
         [HttpDelete("{id}")]

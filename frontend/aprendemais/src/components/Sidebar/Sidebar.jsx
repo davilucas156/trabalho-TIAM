@@ -12,11 +12,11 @@ const Sidebar = () => {
       </button>
 
       <nav className={styles.nav}>
-        <a href="#" className={styles.navItem}>
+        <a href="/home" className={styles.navItem}>
           <FaBook />
           {isExpanded && <span>Quizzes</span>}
         </a>
-        <a href="#" className={styles.navItem}>
+        <a href="/ranking" className={styles.navItem}>
           <FaTrophy />
           {isExpanded && <span>Ranking</span>}
         </a>

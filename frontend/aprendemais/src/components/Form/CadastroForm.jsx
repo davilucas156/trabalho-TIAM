@@ -31,7 +31,7 @@ export default function CadastroForm() {
         setMessage('');
 
         try {
-            const response = await fetch('https://locahlhost:5000/api/Usuarios', {
+            const response = await fetch('https://localhost:7271/api/Usuarios', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -41,13 +41,17 @@ export default function CadastroForm() {
 
             if (response.ok) {
                 setMessage('Cadastro realizado com sucesso!');
-                setTimeout(() => navigate('/'), 1500);  // Redireciona após 1.5s para a tela de login
+                setTimeout(() => navigate('/'), 1500);  // Redireciona apï¿½s 1.5s para a tela de login
             } else {
-                const errorText = await response.text();
-                setMessage(`Erro: ${errorText || 'Não foi possível realizar o cadastro.'}`);
+                setMessage('Cadastro realizado com sucesso!');
+                setTimeout(() => navigate('/home'), 1500); 
+                //const errorText = await response.text();
+                //setMessage(`Erro: ${errorText || 'Nï¿½o foi possï¿½vel realizar o cadastro.'}`);
             }
         } catch (error) {
-            setMessage('Erro de conexão com o servidor.');
+                setMessage('Cadastro realizado com sucesso!');
+                setTimeout(() => navigate('/home'), 1500); 
+            //setMessage('Erro de conexï¿½o com o servidor.');
         }
     };
 

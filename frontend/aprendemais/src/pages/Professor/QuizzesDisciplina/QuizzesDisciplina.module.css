@@ -1,0 +1,288 @@
+<<<<<<< Updated upstream
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.home {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 60px; /* ← valor default da sidebar */
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.botaoCriar {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.botaoCriar:hover {
+  background-color: #43a047;
+}
+
+.quizList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.page1{
+  margin-left: 2rem;
+
+}
+
+.quizItem {
+  background-color: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+  padding: 1.2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.quizItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.quizItem h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.quizItem .meta {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: auto;
+}
+.quizList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.modalContent h3 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.modalContent label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.modalContent input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.modalContent button {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modalContent button:hover {
+  background-color: #1565c0;
+=======
+/* Container geral */
+.container {
+  max-width: 720px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+/* Título */
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #2563eb;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Botão criar quiz */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.25s ease;
+  margin-bottom: 20px;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1e40af;
+}
+
+button:disabled {
+  background-color: #a5b4fc;
+  cursor: not-allowed;
+}
+
+/* Lista de quizzes */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  background-color: #f3f4f6;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #334155;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+}
+
+/* Popup - overlay escurecido */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Popup - box branco */
+.popup {
+  background-color: white;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Título do popup */
+.popup h3 {
+  margin-bottom: 20px;
+  color: #1e40af;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Input do título do quiz */
+.popup input[type="text"] {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1.5px solid #cbd5e1;
+  margin-bottom: 20px;
+  transition: border-color 0.2s ease;
+}
+
+.popup input[type="text"]:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Botões dentro do popup */
+.popup button {
+  width: 45%;
+  margin: 0 5%;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.popup button:first-of-type {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+}
+
+.popup button:first-of-type:hover:not(:disabled) {
+  background-color: #1e40af;
+}
+
+.popup button:last-of-type {
+  background-color: #e5e7eb;
+  border: none;
+  color: #374151;
+}
+
+.popup button:last-of-type:hover {
+  background-color: #d1d5db;
+  cursor: pointer;
+>>>>>>> Stashed changes
+}

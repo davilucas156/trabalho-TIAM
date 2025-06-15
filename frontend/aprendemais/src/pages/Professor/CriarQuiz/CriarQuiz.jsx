@@ -1,68 +1,111 @@
-import { useState } from 'react';
-import Sidebar from '../../../components/Sidebar/Sidebar';
-import TopBar from '../../../components/TopBar/TopBar';
+import React, { useState, useEffect } from 'react';
+import { createQuiz } from '../../../services/quizService';
+import { getDisciplinas } from '../../../services/disciplinaService';
+import { getUsuarios } from '../../../services/usuarioService';
 import styles from './CriarQuiz.module.css';
 
-export default function CriarQuiz() {
+
+const CriarQuiz = () => {
   const [titulo, setTitulo] = useState('');
   const [perguntas, setPerguntas] = useState([]);
 
+  const [disciplinas, setDisciplinas] = useState([]);
+  const [usuarios, setUsuarios] = useState([]);
+
+  const [idDisciplinaSelecionada, setIdDisciplinaSelecionada] = useState(null);
+  const [idCriadorSelecionado, setIdCriadorSelecionado] = useState(null);
+
+  useEffect(() => {
+    // Buscar disciplinas e usuários quando o componente carregar
+    getDisciplinas().then(setDisciplinas).catch(console.error);
+    getUsuarios().then(setUsuarios).catch(console.error);
+  }, []);
+
   const adicionarPergunta = () => {
-    setPerguntas([
-      ...perguntas,
+    setPerguntas(prevPerguntas => [
+      ...prevPerguntas,
       {
-        id: Date.now(),
-        texto: '',
+        enunciado: '',
+        img: '',
+        pontos: 1,
+        tipo: 'multiplaEscolha',
         alternativas: ['', '', '', ''],
-        correta: null,
-        explicacao: '',
+        correta: 0,
       },
     ]);
   };
 
-  const atualizarPergunta = (id, campo, valor) => {
-    setPerguntas((prev) =>
-      prev.map((p) => (p.id === id ? { ...p, [campo]: valor } : p))
-    );
-  };
+  const salvarQuiz = async () => {
+    if (!idDisciplinaSelecionada || !idCriadorSelecionado) {
+      alert('Por favor, selecione uma disciplina e um criador válidos.');
+      return;
+    }
 
-  const atualizarAlternativa = (idPergunta, indexAlt, valor) => {
-    setPerguntas((prev) =>
-      prev.map((p) =>
-        p.id === idPergunta
-          ? {
-              ...p,
-              alternativas: p.alternativas.map((alt, i) =>
-                i === indexAlt ? valor : alt
-              ),
-            }
-          : p
-      )
-    );
-  };
+    const dataAtual = new Date().toISOString();
 
-  const setCorreta = (idPergunta, indexAlt) => {
-    setPerguntas((prev) =>
-      prev.map((p) => (p.id === idPergunta ? { ...p, correta: indexAlt } : p))
-    );
-  };
-
-  const salvarQuiz = () => {
-    const novoQuiz = {
+    const quizParaEnviar = {
+      id_Disciplina: idDisciplinaSelecionada,
+      id_criador: idCriadorSelecionado,
       titulo,
-      perguntas,
+      data_criacao: dataAtual,
+      perguntas: perguntas.map((p) => ({
+        enunciado: p.enunciado,
+        img: p.img || '',
+        pontos: p.pontos || 1,
+        tipo: p.tipo || 'multiplaEscolha',
+        alternativas: p.alternativas.map((alt, index) => ({
+          descricao: alt,
+          correto: index === p.correta,
+        })),
+      })),
     };
-    console.log('✅ Quiz criado:', novoQuiz);
-    alert('Quiz salvo com sucesso!');
+
+    console.log('📤 Payload Enviado:', JSON.stringify(quizParaEnviar, null, 2));
+
+    try {
+      const response = await createQuiz(quizParaEnviar);
+      console.log('✅ Quiz criado com sucesso:', response.data);
+      alert('Quiz salvo com sucesso!');
+      setTitulo('');
+      setPerguntas([]);
+      setIdDisciplinaSelecionada(null);
+      setIdCriadorSelecionado(null);
+    } catch (error) {
+      console.error('❌ Erro ao salvar o quiz:', error);
+      alert('Erro ao salvar o quiz. Verifique os dados e tente novamente.');
+    }
   };
 
   return (
     <div className={styles.page}>
-      <Sidebar />
       <div className={styles.mainContent}>
-        <TopBar />
         <div className={styles.container}>
           <h2 className={styles.header}>Criar Novo Quiz</h2>
+
+          <select
+            value={idDisciplinaSelecionada || ''}
+            onChange={(e) => setIdDisciplinaSelecionada(parseInt(e.target.value))}
+          >
+            <option value="">Selecione uma Disciplina</option>
+            {disciplinas.map((disc) => (
+              <option key={disc.id} value={disc.id}>
+                {disc.nome || disc.titulo || `Disciplina ${disc.id}`}
+              </option>
+            ))}
+          </select>
+
+          <select
+            value={idCriadorSelecionado || ''}
+            onChange={(e) => setIdCriadorSelecionado(parseInt(e.target.value))}
+          >
+            <option value="">Selecione o Criador</option>
+            {usuarios.map((user) => (
+              <option key={user.id} value={user.id}>
+                {user.nome || user.username || `Usuário ${user.id}`}
+              </option>
+            ))}
+          </select>
+
           <input
             className={styles.titulo}
             type="text"
@@ -71,43 +114,7 @@ export default function CriarQuiz() {
             onChange={(e) => setTitulo(e.target.value)}
           />
 
-          {perguntas.map((p, idx) => (
-            <div key={p.id} className={styles.card}>
-              <h3>Pergunta {idx + 1}</h3>
-              <input
-                type="text"
-                placeholder="Digite o enunciado da pergunta"
-                value={p.texto}
-                onChange={(e) => atualizarPergunta(p.id, 'texto', e.target.value)}
-                className={styles.inputPergunta}
-              />
-              <div className={styles.alternativas}>
-                {p.alternativas.map((alt, i) => (
-                  <div key={i} className={styles.altRow}>
-                    <input
-                      type="radio"
-                      name={`correta-${p.id}`}
-                      checked={p.correta === i}
-                      onChange={() => setCorreta(p.id, i)}
-                    />
-                    <input
-                      type="text"
-                      placeholder={`Alternativa ${String.fromCharCode(65 + i)}`}
-                      value={alt}
-                      onChange={(e) => atualizarAlternativa(p.id, i, e.target.value)}
-                      className={styles.inputAlt}
-                    />
-                  </div>
-                ))}
-              </div>
-              <textarea
-                className={styles.explicacao}
-                placeholder="Explicação da resposta correta (opcional)"
-                value={p.explicacao}
-                onChange={(e) => atualizarPergunta(p.id, 'explicacao', e.target.value)}
-              />
-            </div>
-          ))}
+          {/* ... resto do seu formulário de perguntas ... */}
 
           <div className={styles.botoes}>
             <button className={styles.addBtn} onClick={adicionarPergunta}>
@@ -121,4 +128,6 @@ export default function CriarQuiz() {
       </div>
     </div>
   );
-}
+};
+
+export default CriarQuiz;
