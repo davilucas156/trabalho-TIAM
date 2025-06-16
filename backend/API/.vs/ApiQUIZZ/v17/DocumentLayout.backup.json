@@ -3,40 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-=======
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\quizscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\quizscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\models\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\dto\\alternativadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,84 +62,31 @@
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\usuarioturmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\usuarioturmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:dto\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\dto\\alternativadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:dto\\alternativadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\disciplinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-=======
->>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\migrations\\20250502184221_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:migrations\\20250502184221_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\alternativascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvim\\Desktop\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|c:\\users\\berna\\onedrive\\\u00E1rea de trabalho\\github\\trabalho-tiam\\backend\\api\\controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B02F63-683C-4C87-97D4-2191AD5F5AA4}|ApiQUIZZ.csproj|solutionrelative:controllers\\respostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -142,12 +96,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Quiz.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Quiz.cs",
               "RelativeDocumentMoniker": "Models\\Quiz.cs",
@@ -160,93 +113,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DisciplinasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DisciplinasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
-              "RelativeToolTip": "Controllers\\DisciplinasController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:39:54.44Z",
-=======
-          "SelectedChildIndex": 6,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AlternativaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\AlternativaDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\AlternativaDTO.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\AlternativaDTO.cs",
-              "RelativeToolTip": "DTO\\AlternativaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T23:16:38.946Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T22:35:04.2Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 7,
-=======
               "DocumentIndex": 1,
->>>>>>> Stashed changes
-              "Title": "QuizDTO.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\QuizDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\QuizDTO.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\QuizDTO.cs",
-              "RelativeToolTip": "DTO\\QuizDTO.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:31:35.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AlternativaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\AlternativaDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\AlternativaDTO.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\AlternativaDTO.cs",
-              "RelativeToolTip": "DTO\\AlternativaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T23:16:03.832Z",
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOIVAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-15T23:34:44.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RespostasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\RespostasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RespostasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\RespostasController.cs",
-              "RelativeToolTip": "Controllers\\RespostasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
->>>>>>> Stashed changes
+              "DocumentIndex": 7,
+              "Title": "AlternativasController.cs",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlternativasController.cs",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
+              "RelativeToolTip": "Controllers\\AlternativasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:31:14.89Z"
+              "WhenOpened": "2025-04-30T00:39:06.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json*",
+              "RelativeToolTip": "appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T22:48:16.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-<<<<<<< Updated upstream
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Title": "QuizsController.cs",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuizsController.cs",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs",
+              "RelativeToolTip": "Controllers\\QuizsController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAswK4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T01:16:33.882Z"
+              "WhenOpened": "2025-05-02T18:07:44.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Turma.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Turma.cs",
               "RelativeDocumentMoniker": "Models\\Turma.cs",
@@ -258,64 +187,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:16:33.882Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QuizsController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QuizsController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs",
-              "RelativeToolTip": "Controllers\\QuizsController.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAswK4AAAANAAAAAAAAAA==",
+              "Title": "QuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\QuizDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\QuizDTO.cs",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\QuizDTO.cs",
+              "RelativeToolTip": "DTO\\QuizDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:07:44.164Z"
+              "WhenOpened": "2025-06-05T00:31:35.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AlternativasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AlternativasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
-              "RelativeToolTip": "Controllers\\AlternativasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DisciplinasController.cs",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DisciplinasController.cs",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
+              "RelativeToolTip": "Controllers\\DisciplinasController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:39:06.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T00:39:54.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Disciplina.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Disciplina.cs",
               "RelativeDocumentMoniker": "Models\\Disciplina.cs",
               "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\Disciplina.cs",
               "RelativeToolTip": "Models\\Disciplina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T23:03:18.676Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-=======
->>>>>>> Stashed changes
+              "Title": "AlternativaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\AlternativaDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AlternativaDTO.cs",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\AlternativaDTO.cs",
+              "RelativeToolTip": "DTO\\AlternativaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:31:14.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "TurmasController.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\TurmasController.cs",
               "RelativeDocumentMoniker": "Controllers\\TurmasController.cs",
               "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\TurmasController.cs",
               "RelativeToolTip": "Controllers\\TurmasController.cs",
-<<<<<<< Updated upstream
               "ViewState": "AgIAAFQAAAAAAAAAAAAYwGsAAAAAAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:06:34.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T18:06:34.709Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "DTO\\UsuarioDTO.cs",
@@ -327,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DisciplinaDTO.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\DTO\\DisciplinaDTO.cs",
               "RelativeDocumentMoniker": "DTO\\DisciplinaDTO.cs",
@@ -339,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "UsuarioTurmaController.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\UsuarioTurmaController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioTurmaController.cs",
@@ -351,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "20250529010228_CreateUsuarioTurmaRelationship.cs",
               "DocumentMoniker": "C:\\Users\\alvim\\Desktop\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\alvim\\Desktop\\trabalho-TIAM\\backend\\API\\Migrations\\20250529010228_CreateUsuarioTurmaRelationship.cs",
@@ -363,31 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T22:48:16.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAiwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T22:35:04.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MydbContext.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\MydbContext.cs",
               "RelativeDocumentMoniker": "Models\\MydbContext.cs",
@@ -399,119 +319,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAALAAAA",
-=======
-              "DocumentIndex": 5,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:06:01.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MydbContext.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\MydbContext.cs",
-              "RelativeDocumentMoniker": "Models\\MydbContext.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Models\\MydbContext.cs",
-              "RelativeToolTip": "Models\\MydbContext.cs",
-              "ViewState": "AgIAANsAAAAAAAAAAAAgwPMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:36:19.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QuizsController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QuizsController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\QuizsController.cs*",
-              "RelativeToolTip": "Controllers\\QuizsController.cs*",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAwJoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:07:44.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAArwEwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:22:39.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DisciplinasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DisciplinasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\DisciplinasController.cs",
-              "RelativeToolTip": "Controllers\\DisciplinasController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAswCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:39:54.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-02T18:23:46.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250502184221_mydb.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Migrations\\20250502184221_mydb.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250502184221_mydb.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Migrations\\20250502184221_mydb.cs",
-              "RelativeToolTip": "Migrations\\20250502184221_mydb.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:42:22.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AlternativasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AlternativasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\AlternativasController.cs",
-              "RelativeToolTip": "Controllers\\AlternativasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T23:08:13.816Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
@@ -523,10 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-=======
-              "DocumentIndex": 11,
->>>>>>> Stashed changes
+              "DocumentIndex": 19,
               "Title": "NotasController.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\NotasController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotasController.cs",
@@ -538,11 +355,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 20,
-=======
-              "DocumentIndex": 12,
->>>>>>> Stashed changes
+              "DocumentIndex": 21,
               "Title": "PerguntasController.cs",
               "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\\u00C1rea de Trabalho\\GitHub\\trabalho-TIAM\\backend\\API\\Controllers\\PerguntasController.cs",
               "RelativeDocumentMoniker": "Controllers\\PerguntasController.cs",

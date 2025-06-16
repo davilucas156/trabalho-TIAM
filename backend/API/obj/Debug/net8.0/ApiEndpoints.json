@@ -218,7 +218,6 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< Updated upstream
     "ContainingType": "ApiQUIZZ.Controllers.DisciplinasController",
     "Method": "GetDisciplinasPorTurma",
     "RelativePath": "api/Disciplinas/turma/{turmaId}",
@@ -245,8 +244,6 @@
     ]
   },
   {
-=======
->>>>>>> Stashed changes
     "ContainingType": "ApiQUIZZ.Controllers.LoginController",
     "Method": "PostResposta",
     "RelativePath": "api/Login",
@@ -554,27 +551,6 @@
   },
   {
     "ContainingType": "ApiQUIZZ.Controllers.QuizsController",
-    "Method": "PutQuiz",
-    "RelativePath": "api/Quizs/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "quiz",
-        "Type": "Quiz",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiQUIZZ.Controllers.QuizsController",
     "Method": "DeleteQuiz",
     "RelativePath": "api/Quizs/{id}",
     "HttpMethod": "DELETE",
@@ -605,11 +581,7 @@
     ],
     "ReturnTypes": [
       {
-<<<<<<< Updated upstream
         "Type": "Quiz",
-=======
-        "Type": "ApiQUIZZ.Models.Quiz",
->>>>>>> Stashed changes
         "MediaTypes": [
           "text/plain",
           "application/json",

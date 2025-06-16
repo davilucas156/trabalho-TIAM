@@ -10,18 +10,29 @@ export default function Quizzes() {
   const [quizzes, setQuizzes] = useState([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const disciplinaId = parseInt(id);
-    const data = quizzesMock.filter(q => q.idDisciplina === disciplinaId);
-    setQuizzes(data);
-  }, [id]);
+useEffect(() => {
+  const disciplinaId = parseInt(id);
+
+  let data = [];
+
+  if (disciplinaId === 999) {
+    data = quizzesMock; // só tem 1 agora
+  } else {
+    data = quizzesMock.filter(q => q.idDisciplina === disciplinaId);
+  }
+
+  setQuizzes(data);
+}, [id]);
+
 
   return (
     <div className={styles.quizzes}>
       <Sidebar />
       <div className={styles.mainContent}>
         <TopBar />
-        <h2 className={styles.title}>Quizzes da Disciplina #{id}</h2>
+<h2 className={styles.title}>
+  {parseInt(id) === 999 ? 'Quizzes do Desafio Interdisciplinar' : `Quizzes da Disciplina #${id}`}
+</h2>
         {quizzes.length === 0 ? (
           <p>Esta disciplina ainda não possui quizzes.</p>
         ) : (

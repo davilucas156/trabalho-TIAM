@@ -1726,9 +1726,6 @@ C:\Users\berna\OneDrive\Área de Trabalho\GitHub\trabalho-TIAM\backend\API\bin\D
 C:\Users\Alessandro\Documents\Faculdade\ADS\trabalho-TIAM\backend\API\obj\Debug\net8.0\ApiQUIZZ.dll
 C:\Users\Alessandro\Documents\Faculdade\ADS\trabalho-TIAM\backend\API\obj\Debug\net8.0\refint\ApiQUIZZ.dll
 C:\Users\Alessandro\Documents\Faculdade\ADS\trabalho-TIAM\backend\API\obj\Debug\net8.0\ApiQUIZZ.pdb
-C:\Users\berna\OneDrive\Área de Trabalho\GitHub\trabalho-TIAM\backend\API\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\berna\OneDrive\Área de Trabalho\GitHub\trabalho-TIAM\backend\API\bin\Debug\net8.0\ApiQUIZZ.staticwebassets.endpoints.json
-C:\Users\berna\OneDrive\Área de Trabalho\GitHub\trabalho-TIAM\backend\API\bin\Debug\net8.0\appsettings.json
 >>>>>>> Stashed changes
 C:\Users\berna\OneDrive\Área de Trabalho\GitHub\trabalho-TIAM\backend\API\bin\Debug\net8.0\ApiQUIZZ.exe
 C:\Users\berna\OneDrive\Área de Trabalho\GitHub\trabalho-TIAM\backend\API\bin\Debug\net8.0\ApiQUIZZ.deps.json

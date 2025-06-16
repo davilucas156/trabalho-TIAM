@@ -948,46 +948,6 @@
           }
         }
       },
-      "put": {
-        "tags": [
-          "Quizs"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Quiz"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Quiz"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Quiz"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
       "delete": {
         "tags": [
           "Quizs"
@@ -1884,7 +1844,6 @@
             "type": "integer",
             "format": "int32"
           },
-<<<<<<< Updated upstream
           "id_disciplina": {
             "type": "integer",
             "format": "int32"
@@ -1892,14 +1851,6 @@
           "datCriacao": {
             "type": "string",
             "format": "date-time"
-=======
-          "datCriacao": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "usuarioCriador": {
-            "$ref": "#/components/schemas/Usuario"
->>>>>>> Stashed changes
           },
           "usuarioCriador": {
             "$ref": "#/components/schemas/Usuario"
@@ -2071,16 +2022,6 @@
             "nullable": true
           },
           "quizzesCriados": {
-<<<<<<< Updated upstream
-=======
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Quiz"
-            },
-            "nullable": true
-          },
-          "turmas": {
->>>>>>> Stashed changes
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Quiz"
@@ -2090,7 +2031,6 @@
         },
         "additionalProperties": false
       },
-<<<<<<< Updated upstream
       "UsuarioDTO": {
         "type": "object",
         "properties": {
@@ -2112,8 +2052,6 @@
         },
         "additionalProperties": false
       },
-=======
->>>>>>> Stashed changes
       "UsuarioLogin": {
         "type": "object",
         "properties": {
@@ -2127,7 +2065,6 @@
           }
         },
         "additionalProperties": false
-<<<<<<< Updated upstream
       },
       "UsuarioTurma": {
         "type": "object",
@@ -2148,8 +2085,6 @@
           }
         },
         "additionalProperties": false
-=======
->>>>>>> Stashed changes
       }
     }
   }

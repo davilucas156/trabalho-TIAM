@@ -20,7 +20,6 @@ namespace ApiQUIZZ
             builder.Services.AddControllers();
 
             builder.Services.AddDbContext<MydbContext>(options =>
-<<<<<<< Updated upstream
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Configurar CORS para permitir tudo
@@ -33,12 +32,6 @@ namespace ApiQUIZZ
                            .AllowAnyHeader();
                 });
             });
-
-=======
-
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
->>>>>>> Stashed changes
             builder.Services.AddEndpointsApiExplorer();
 
             builder.Services.AddSwaggerGen();
@@ -81,11 +74,9 @@ namespace ApiQUIZZ
 
             app.UseHttpsRedirection();
 
-<<<<<<< Updated upstream
+
             // Aplicar política CORS antes do Authorization
             app.UseCors("AllowAll");
-=======
->>>>>>> Stashed changes
 
             app.UseAuthorization();
 

@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiQUIZZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+938778dccae9e59f739480a63ba423ecbdeec77a")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f28d6acecb0b9550768323b5634330aaa8feb836")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abdde7547500d14a8c6e33133b278ea244a6e2db")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiQUIZZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiQUIZZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

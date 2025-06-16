@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Sidebar from '../../../components/Sidebar/Sidebar';
@@ -82,68 +81,3 @@ export default function DisciplinasTurma() {
     </div>
   );
 }
-=======
-import styles from './DisciplinasTurma.module.css';
-import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { getDisciplinas } from '../../../services/disciplinaService';
-import Sidebar from '../../../components/Sidebar/Sidebar';
-import TopBar from '../../../components/TopBar/TopBar';
-import WelcomeMessage from '../../../components/WelcomeMessage/WelcomeMessage';
-
-const DisciplinasTurma = () => {
-  const { id } = useParams();
-  const [disciplinas, setDisciplinas] = useState([]);
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const fetchDisciplinas = async () => {
-      try {
-        const data = await getDisciplinas();
-        const filtered = data.filter(d => d.idTurma === Number(id));
-        setDisciplinas(filtered);
-      } catch (error) {
-        console.error('Erro ao buscar disciplinas:', error);
-      }
-    };
-
-    fetchDisciplinas();
-  }, [id]);
-
-  return (
-    <div className={styles.page}>
-      <Sidebar />
-      <div className={styles.mainContent}>
-        <TopBar />
-        <WelcomeMessage studentName="Prof. Alexandre" />
-        <div className={styles.content}>
-          <div className={styles.header}>
-            <h2>Disciplinas da Turma {id}</h2>
-            <button
-              className={styles.createButton}
-              onClick={() => navigate(`/turmas/${id}/criar-disciplina`)}
-            >
-              Criar Nova Disciplina
-            </button>
-          </div>
-
-          <div className={styles.cardGrid}>
-            {disciplinas.map(d => (
-              <div
-                key={d.idDisciplina}
-                className={styles.card}
-                onClick={() => navigate(`/disciplinas/${d.idDisciplina}/quizzesProfessor`)}
-              >
-                <h3>{d.descricao}</h3>
-                <p><strong>ID:</strong> {d.idDisciplina}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default DisciplinasTurma;
->>>>>>> Stashed changes

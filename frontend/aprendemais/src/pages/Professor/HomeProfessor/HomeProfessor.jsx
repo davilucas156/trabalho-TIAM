@@ -72,7 +72,6 @@ const novaTurma = {
   return (
     <div className={styles.home}>
       <Sidebar />
-<<<<<<< Updated upstream
 
         <div className={styles.mainContent}>
           <TopBar />
@@ -87,15 +86,6 @@ const novaTurma = {
           </button>
         </div>
 
-=======
-      <div className={styles.mainContent}>
-        <TopBar />
-        <WelcomeMessage studentName="Prof. Alexandre" />
-        <SubjectCarousel
-          subjects={turmas}
-          onCardClick={(id) => navigate(`/turmas/${id}/disciplinas`)}
-        />
->>>>>>> Stashed changes
 
 
       </div>
