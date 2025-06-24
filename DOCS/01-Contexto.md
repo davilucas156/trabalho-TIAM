@@ -1,6 +1,6 @@
 # Introdução
 
-O processo de aprendizagem é cada vez mais reconhecido como uma jornada contínua e interativa, na qual a motivação e o engajamento desempenham papéis cruciais na retenção de conhecimento. Com o avanço da tecnologia, ferramentas digitais, como os quizzes, têm se mostrado eficazes na criação de ambientes de aprendizado mais dinâmicos e atrativos. Este trabalho propõe o desenvolvimento de um software web para a realização de quizzes, cujo objetivo é facilitar o aprendizado e o estudo de qualquer pessoa, independentemente da área de interesse ou nível de conhecimento. Além de permitir a criação de quizzes personalizados, a plataforma contará com funcionalidades de gamificação, incorporando elementos como pontuação, rankings e desafios, com o intuito de tornar a experiência mais envolvente e estimulante. A gamificação, ao integrar mecânicas de jogos, visa aumentar a motivação do usuário, tornando o estudo mais prazeroso e eficaz.
+O processo de aprendizagem é cada vez mais reconhecido como uma jornada contínua e interativa, na qual a motivação e o engajamento desempenham papéis cruciais na retenção de conhecimento. Com o avanço da tecnologia, ferramentas digitais, como os quizzes, têm se mostrado eficazes na criação de ambientes de aprendizado mais dinâmicos e atrativos. Este trabalho propõe o desenvolvimento do AprendeMais, um software web para a realização de quizzes, cujo objetivo é facilitar o aprendizado e o estudo de qualquer pessoa, independentemente da área de interesse ou nível de conhecimento. Além de permitir a criação de quizzes personalizados, a plataforma contará com funcionalidades de gamificação, incorporando elementos como pontuação, rankings e desafios, com o intuito de tornar a experiência mais envolvente e estimulante. A gamificação, ao integrar mecânicas de jogos, visa aumentar a motivação do usuário, tornando o estudo mais prazeroso e eficaz.
 
 ## Problema
 A educação tradicional, muitas vezes, enfrenta desafios no engajamento dos alunos, especialmente em contextos de estudo individual, onde a falta de motivação e o cansaço mental podem prejudicar a retenção de informações. Além disso, a crescente necessidade de ferramentas de aprendizado acessíveis e adaptáveis para diferentes públicos exige novas abordagens que se alinhem às demandas contemporâneas. Apesar da grande quantidade de recursos digitais disponíveis, muitos deles ainda carecem de funcionalidades interativas que possam realmente captar o interesse dos usuários e estimular uma prática contínua e produtiva de estudo.
@@ -11,7 +11,7 @@ Diante disso, surge a necessidade de desenvolver uma plataforma de quizzes que, 
 
 ### Objetivo Geral
 
-Desenvolver uma aplicação acadêmica interativa que permita aos professores criarem atividades gamificadas (quizzes) para engajar os alunos no processo de aprendizagem, acompanhando o progresso por meio de rankings, e promovendo maior motivação e participação ativa no ambiente educacional com desafios e recompensas.
+Desenvolver o AprendeMais, uma aplicação acadêmica interativa que permita aos professores criarem atividades gamificadas (quizzes) para engajar os alunos no processo de aprendizagem, acompanhando o progresso por meio de rankings, e promovendo maior motivação e participação ativa no ambiente educacional com desafios e recompensas.
 
 ### Objetivos Espcifícos
 
