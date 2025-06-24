@@ -124,19 +124,17 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 |ID|Descrição do Requisito                                                                                          | Prioridade |
 |-------|----------------------------------------------------------------------------------------------------|------------|
-|RF-01|**Cadastro de usuario**: O sistema deve permitir que professores e alunos se cadastrem com login e senha. | Alta |
-|RF-02|**Perfis de usuario**: O sistema deve diferenciar perfis de professor e aluno, fornecendo permissões distintas. | Alta |
+|RF-01|**Cadastrar usuários**: O sistema deve permitir que professores e alunos se cadastrem com login e senha. | Alta |
+|RF-02|**Diferenciar perfis de usuários**: O sistema deve diferenciar perfis de professor e aluno, fornecendo permissões distintas. | Alta |
 |RF-03|**Criar quizzes**: O sistema deve permitir que os professores cadastrados criem atividades com diferentes tipos de perguntas. | Alta |
 |RF-04|**Realizar os quizzes**: O sistema deve permitir que os alunos cadastrados acessem os quizzes e respondam às questões já disponíveis. | Alta |
-|RF-05|**Criação de turmas por disciplina**: O sistema deve permitir aos professores a criação de turmas de acordo com as disciplinas que os alunos possuem. | Alta |
-|RF-06|**Ranking e progresso dos alunos**: O sistema deve exibir rankings gerais e por turma, mostrando o progresso dos alunos. | Alta |
-|RF-07|**Estatísticas Gerais**: O sistema deve exibir um overview ao final do Quizz com número de acertos e erros. | Média |
-|RF-08|**Criação de salas**: O sistema deve permitir a criação de salas personalizadas por professores. | Média |
-|RF-09|**Relatórios de Desempenho**: O sistema deve gerar relatórios detalhados sobre o desempenho dos alunos nos quizzes, permitindo que professores e coordenadores acompanhem a evolução de cada estudante e identifiquem dificuldades. | Média |
-|RF-10|**Modo de Estudo Personalizado**: O sistema deve permitir que os alunos revisem quizzes anteriores e recebam sugestões de novos quizzes com base em seu desempenho, focando nas áreas onde têm mais dificuldade. | Baixo |
-|RF-11|**Notificações para novos quizzes e atualizações**: O sistema deve enviar notificações para os alunos e professores quando novos quizzes forem criados ou quando houver atualizações importantes sobre os quizzes existentes. |Média|
-|RF-12| **Feedback das atividades**: O sistema deve permitir que os professores forneçam feedback detalhado aos alunos após a conclusão de um quiz ou atividade. | Alta |
-
+|RF-05|**Criar turmas**: O sistema deve permitir aos professores a criação de turmas. | Alta |
+|RF-06|**Gerar rankings**: O sistema deve exibir rankings gerais e por turma, mostrando o progresso dos alunos. | Baixa |
+|RF-07|**Exibir estatísticas Gerais**: O sistema deve exibir um overview ao final do Quizz com número de acertos e erros. | Média |
+|RF-08|**Exibir relatórios de desempenho**: O sistema deve gerar relatórios detalhados sobre o desempenho dos alunos nos quizzes, permitindo que professores e coordenadores acompanhem a evolução de cada estudante e identifiquem dificuldades. | Média |
+|RF-09|**Revisar quizzes**: O sistema deve permitir que os alunos revisem quizzes anteriores. | Baixo |
+|RF-10|**Emitir notificações para novos quizzes e atualizações**: O sistema deve enviar notificações para os alunos e professores quando novos quizzes forem criados ou quando houver atualizações importantes sobre os quizzes existentes. |Média|
+|RF-11| **Fornecer feedback das atividades**: O sistema deve permitir que os professores forneçam feedback detalhado aos alunos após a conclusão de um quiz ou atividade. | Média |
 
 ### Requisitos não funcionais
 |ID    | Descrição                                                                                    |
