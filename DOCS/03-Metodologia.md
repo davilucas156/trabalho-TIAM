@@ -91,7 +91,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | [Código Fonte](https://github.com/davilucas156/trabalho-TIAM.git)               |
 | Documentos do projeto               | GitHub                             | [Documentação](https://github.com/davilucas156/trabalho-TIAM/tree/main/DOCS)                       |
-| ambiente de desenvolvimento         |
+| Ambiente de desenvolvimento         | Visual Studio Code                 | - |
 | Projeto de interface                | Marvel                             | [Prototipação](https://marvelapp.com/project/7141818)|
 | Gerenciamento do projeto            | Trello                             | [Gerenciciametno no Trello](https://trello.com/invite/b/67c9a14722d233e3c24675a9/ATTIb2c4785c413fecf086495d9862db22b90868C5E3/game-escolar)|
 | Hospedagem                          | A definir                          | http://....                            |
