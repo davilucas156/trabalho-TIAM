@@ -1,7 +1,5 @@
 import Sidebar from '../../../components/Sidebar/Sidebar';
 import TopBar from '../../../components/TopBar/TopBar';
-import { mockUsers } from '../../../mocks/mockUsers';
-import { mockUserLogado } from '../../../mocks/mockAuth';
 import styles from './Ranking.module.css';
 
 export default function Ranking() {

@@ -28,7 +28,7 @@ const CriarQuiz = () => {
         enunciado: '',
         img: '',
         pontos: 1,
-        tipo: 'multiplaEscolha',
+        tipo: 'm',
         alternativas: ['', '', '', ''],
         correta: 0,
       },
@@ -52,7 +52,7 @@ const CriarQuiz = () => {
         enunciado: p.enunciado,
         img: p.img || '',
         pontos: p.pontos || 1,
-        tipo: p.tipo || 'multiplaEscolha',
+        tipo: p.tipo || 'm',
         alternativas: p.alternativas.map((alt, index) => ({
           descricao: alt,
           correto: index === p.correta,

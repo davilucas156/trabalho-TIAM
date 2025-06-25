@@ -25,14 +25,24 @@ namespace ApiQUIZZ.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Quiz>>> GetQuizzes()
         {
-            return await _context.Quizzes.ToListAsync();
+            return await _context.Quizzes
+                .Include(q => q.Pergunta)
+                    .ThenInclude(p => p.Alternativas)
+                .Include(q => q.UsuarioCriador)
+                .Include(q => q.Disciplina)
+                .ToListAsync();
         }
 
-        // GET: api/Quizs/5
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Quiz>> GetQuiz(int id)
         {
-            var quiz = await _context.Quizzes.FindAsync(id);
+            var quiz = await _context.Quizzes
+                .Include(q => q.Pergunta)
+                    .ThenInclude(p => p.Alternativas)
+                .Include(q => q.UsuarioCriador)
+                .Include(q => q.Disciplina)
+                .FirstOrDefaultAsync(q => q.IdQuizzes == id);
 
             if (quiz == null)
             {
@@ -41,6 +51,7 @@ namespace ApiQUIZZ.Controllers
 
             return quiz;
         }
+
 
         [HttpGet("criador/{id}")]
 
@@ -183,23 +194,23 @@ namespace ApiQUIZZ.Controllers
 
         // DELETE: api/Quizs/5
         [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteQuiz(int id)
-    {
-        var quiz = await _context.Quizzes.FindAsync(id);
-        if (quiz == null)
+        public async Task<IActionResult> DeleteQuiz(int id)
         {
-            return NotFound();
+            var quiz = await _context.Quizzes.FindAsync(id);
+            if (quiz == null)
+            {
+                return NotFound();
+            }
+
+            _context.Quizzes.Remove(quiz);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
-        _context.Quizzes.Remove(quiz);
-        await _context.SaveChangesAsync();
-
-        return NoContent();
+        private bool QuizExists(int id)
+        {
+            return _context.Quizzes.Any(e => e.IdQuizzes == id);
+        }
     }
-
-    private bool QuizExists(int id)
-    {
-        return _context.Quizzes.Any(e => e.IdQuizzes == id);
-    }
-}
 }

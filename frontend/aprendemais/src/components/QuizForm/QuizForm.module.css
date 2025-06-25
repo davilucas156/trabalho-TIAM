@@ -1,0 +1,88 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContentScrollable {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.modalContentScrollable h3 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.modalContentScrollable label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.modalContentScrollable input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.modalContentScrollable button {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modalContentScrollable button:hover {
+  background-color: #1565c0;
+}
+
+.perguntaBloco {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.perguntaBloco h4 {
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.alternativasContainer {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.alternativaItem {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

@@ -62,7 +62,6 @@ export default function DisciplinasTurma() {
       <Sidebar />
       <div className={styles.mainContent}>
         <TopBar />
-        <h2 className={styles.title}>Disciplinas da Turma #{id}</h2>
 
         <button onClick={handleCriarDisciplina} className={styles.botaoCriar}>
           ➕ Criar Disciplina
@@ -74,7 +73,6 @@ export default function DisciplinasTurma() {
           <SubjectCarousel
             subjects={mappedDisciplinas}
             onCardClick={(idDisciplina) => navigate(`/turmas/${id}/DisciplinasTurma/QuizzesDisciplina?idDisciplina=${idDisciplina}`)}
-
           />
         )}
       </div>

@@ -5,19 +5,24 @@ import Footer from '../../../components/Footer/Footer';
 import styles from './Cadastro.module.css';
 
 export default function Register() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleRegister = () => {
-        navigate('/home');
-    };
+  const handleRegister = (usuarioCriado) => {
+  if (usuarioCriado.tipo.toLowerCase() === 'p') {
+    navigate('/homeProfessor');
+  } else {
+    navigate('/home');
+  }
+};
 
-    return (
-        <div className={styles.appLayout}>
-            <div className={styles.mainContainer}>
-                <CadastroForm onSubmit={handleRegister} />
-                <LogoSection />
-            </div>
-            <Footer />
-        </div>
-    );
+
+  return (
+    <div className={styles.appLayout}>
+      <div className={styles.mainContainer}>
+        <CadastroForm onSubmit={handleRegister} />
+        <LogoSection />
+      </div>
+      <Footer />
+    </div>
+  );
 }

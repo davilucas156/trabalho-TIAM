@@ -2,7 +2,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import GenericCard from '../GenericCard/GenericCard';
 import styles from './SubjectCarousel.module.css';
-import { useNavigate } from 'react-router-dom';
 
 const responsive = {
   superLargeDesktop: { breakpoint: { max: 4000, min: 1440 }, items: 4 },
@@ -11,11 +10,10 @@ const responsive = {
   mobile: { breakpoint: { max: 768, min: 0 }, items: 1 },
 };
 
-
-export default function SubjectCarousel({ subjects, onCardClick }) {
+export default function SubjectCarousel({ subjects, onCardClick, title = "Suas turmas" }) {
   return (
     <div className={styles.wrapper}>
-      <h3 className={styles.title}>Suas turmas ➜</h3>
+      <h3 className={styles.title}>{title} ➜</h3>
       <Carousel responsive={responsive} infinite={false} arrows>
         {subjects.map((s) => (
           <div style={{ paddingRight: '1rem' }} key={s.id}>
